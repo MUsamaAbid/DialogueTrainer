@@ -369,10 +369,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 61
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -380,7 +380,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What concerns do you have?
+  m_Text: 'Tayla, I was not aware that you have not looked after a post-op open heart
+    surgery patient for so long. I would love to reassign you. Unfortunately, I have
+    several sick calls today and you are the most senior RN on duty. '
 --- !u!222 &67090106
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -640,10 +642,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 61
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -651,7 +653,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tayla, the day is too busy for complaints
+  m_Text: I have no one else as several sick calls came in. You can get some time
+    to review the protocols to remind yourself. You will remember once you read the
+    protocols.
 --- !u!222 &96295804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1799,10 +1803,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 61
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1810,8 +1814,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tayla, all the nurses are trained in intensive care nursing so there should
-    not be assignment concerns
+  m_Text: 'You cannot have another assignment. You are an ICU RN and the care will
+    come back to you as you are trained. '
 --- !u!222 &251563757
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2491,7 +2495,7 @@ GameObject:
   - component: {fileID: 467454375}
   - component: {fileID: 467454374}
   m_Layer: 5
-  m_Name: Scenario 1 (Questions) Box
+  m_Name: Scenario 1 (Question 1) Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4555,7 +4559,7 @@ GameObject:
   - component: {fileID: 814354626}
   - component: {fileID: 814354625}
   m_Layer: 5
-  m_Name: Scenario 1 (Questions) Box
+  m_Name: Scenario 1 (Question 2) Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5383,8 +5387,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 1610.6101, y: 137.9886}
+  m_AnchoredPosition: {x: 0, y: 287.08075}
+  m_SizeDelta: {x: 1610.6101, y: 169.0037}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1023482350
 MonoBehaviour:
@@ -6018,8 +6022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -250}
-  m_SizeDelta: {x: 500, y: 125}
+  m_AnchoredPosition: {x: 0, y: -194.85785}
+  m_SizeDelta: {x: 500, y: 235.2843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171273735
 MonoBehaviour:
@@ -6067,7 +6071,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1638194937}
         m_TargetAssemblyTypeName: GameplayManager, Assembly-CSharp
-        m_MethodName: Scenario1Answer1Selected
+        m_MethodName: Scenario1Answer2Selected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7821,7 +7825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496377261}
   m_Layer: 5
-  m_Name: Scenario 1 Answer 1 box
+  m_Name: Scenario 1 Answer 2 box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8453,7 +8457,7 @@ MonoBehaviour:
   PlayerCam: {fileID: 963194225}
   Tayla: {fileID: 1649956562}
   Player: {fileID: 806816429}
-  Scenario1CorrectAnswers: 01000000
+  Scenario1CorrectAnswers: 0100000001000000
 --- !u!4 &1638194938
 Transform:
   m_ObjectHideFlags: 0
@@ -8686,7 +8690,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1638194937}
         m_TargetAssemblyTypeName: GameplayManager, Assembly-CSharp
-        m_MethodName: ShowScenario1Question1AnswerBox
+        m_MethodName: ShowScenario1Question2AnswerBox
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8904,8 +8908,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -615, y: -250}
-  m_SizeDelta: {x: 500, y: 125}
+  m_AnchoredPosition: {x: -615, y: -168.28723}
+  m_SizeDelta: {x: 500, y: 288.4255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1666231180
 MonoBehaviour:
@@ -8953,7 +8957,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1638194937}
         m_TargetAssemblyTypeName: GameplayManager, Assembly-CSharp
-        m_MethodName: Scenario1Answer1Selected
+        m_MethodName: Scenario1Answer2Selected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9090,7 +9094,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1567.3906, y: 115.0564}
+  m_SizeDelta: {x: 1567.3906, y: 158.0004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674747839
 MonoBehaviour:
@@ -9125,8 +9129,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am sorry to bother but need to let you know of my concern with the assignment
-    given to me today.
+  m_Text: 'I noticed that I am assigned to look after the patient post-op open heart
+    surgery, but I am not happy to take on that care. I have not looked after a post-op
+    open heart patient for a year. Can I be assigned another patient? '
 --- !u!222 &1674747840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9186,12 +9191,13 @@ MonoBehaviour:
   Scenario1Answer1ASelected: {fileID: 928597190}
   Scenario1Answer1BSelected: {fileID: 1912827573}
   Scenario1Answer1CSelected: {fileID: 513450404}
-  Scenario1AnswerNextButton: {fileID: 125117353}
-  Scenario1Question2Box: {fileID: 0}
-  Scenario1Answer2Box: {fileID: 0}
-  Scenario1Answer2ASelected: {fileID: 0}
-  Scenario1Answer2BSelected: {fileID: 0}
-  Scenario1Answer2CSelected: {fileID: 0}
+  Scenario1Answer1NextButton: {fileID: 125117353}
+  Scenario1Question2Box: {fileID: 814354623}
+  Scenario1Answer2Box: {fileID: 1496377260}
+  Scenario1Answer2ASelected: {fileID: 1819693858}
+  Scenario1Answer2BSelected: {fileID: 2135821562}
+  Scenario1Answer2CSelected: {fileID: 1486640905}
+  Scenario1Answer2NextButton: {fileID: 651884572}
 --- !u!1 &1684204910
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,7 +10589,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1638194937}
         m_TargetAssemblyTypeName: GameplayManager, Assembly-CSharp
-        m_MethodName: Scenario1Answer1Selected
+        m_MethodName: Scenario1Answer2Selected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11364,7 +11370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2121174382
 RectTransform:
   m_ObjectHideFlags: 0

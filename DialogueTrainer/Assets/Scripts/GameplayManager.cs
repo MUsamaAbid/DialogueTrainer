@@ -54,12 +54,37 @@ public class GameplayManager : MonoBehaviour
 
         Tayla.GetComponent<Animator>().SetTrigger("Talk");
     }
+    void Scenario1Question2()
+    {
+        GameplayUI.Instance.TurnQuestion1UIOff();
+
+        AudioManager.Instance.StopSound();
+
+        GameplayUI.Instance.Scenario1Question2Box.SetActive(true);
+        AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q2Tayla);
+
+        TaylaCam.SetActive(true);
+        PlayerCam.SetActive(false);
+
+        Tayla.GetComponent<Animator>().SetTrigger("Talk");
+    }
     public void ShowScenario1Question1AnswerBox()
     {
         AudioManager.Instance.StopSound();
 
         GameplayUI.Instance.Scenario1Question1Box.SetActive(false);
         GameplayUI.Instance.Scenario1Answer1Box.SetActive(true);
+
+        PlayerCam.SetActive(true);
+        TaylaCam.SetActive(false);
+
+    }
+    public void ShowScenario1Question2AnswerBox()
+    {
+        AudioManager.Instance.StopSound();
+
+        GameplayUI.Instance.Scenario1Question2Box.SetActive(false);
+        GameplayUI.Instance.Scenario1Answer2Box.SetActive(true);
 
         PlayerCam.SetActive(true);
         TaylaCam.SetActive(false);
@@ -96,8 +121,40 @@ public class GameplayManager : MonoBehaviour
         }
         currentAnswer = answerNumber;
     }
+    public void Scenario1Answer2Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                AudioManager.Instance.StopSound();
+                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2APlayer);
+                GameplayUI.Instance.Scenario1Answer2Selected(answerNumber);
+                Player.GetComponent<Animator>().SetTrigger("Talk");
+                break;
+
+            case 2:
+                AudioManager.Instance.StopSound();
+                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2BPlayer);
+                GameplayUI.Instance.Scenario1Answer2Selected(answerNumber);
+                Player.GetComponent<Animator>().SetTrigger("Talk");
+                break;
+
+            case 3:
+                AudioManager.Instance.StopSound();
+                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2CPlayer);
+                GameplayUI.Instance.Scenario1Answer2Selected(answerNumber);
+                Player.GetComponent<Animator>().SetTrigger("Talk");
+                break;
+
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+        currentAnswer = answerNumber;
+    }
     public void Scenario1CheckForAnswer()
     {
+        AudioManager.Instance.StopSound();
         if(currentAnswer == Scenario1CorrectAnswers[currentQuestion])
         {
             Debug.Log("Correct Answer");
@@ -113,6 +170,19 @@ public class GameplayManager : MonoBehaviour
 
         TaylaCam.SetActive(true);
         PlayerCam.SetActive(false);
-        //currentQuestion++;
+        currentQuestion++;
+        Invoke("LoadNextQuestion",5f);
+    }
+    void LoadNextQuestion()
+    {
+        switch (currentQuestion)
+        {
+            case 0:
+                Scenario1Question1();
+                break;
+            case 1:
+                Scenario1Question2();
+                break;
+        }
     }
 }
