@@ -102,14 +102,17 @@ public class GameplayManager : MonoBehaviour
         {
             Debug.Log("Correct Answer");
             Tayla.GetComponent<Animator>().SetTrigger("Happy");
+            ScoreManager.Instance.AddScore(20);
         }
         else
         {
             Tayla.GetComponent<Animator>().SetTrigger("Sad");
             Debug.Log("false answer");
         }
+        GameplayUI.Instance.AnswerNextButtonInteractables();
+
         TaylaCam.SetActive(true);
         PlayerCam.SetActive(false);
-        //currentQuestion++;
+        currentQuestion++;
     }
 }

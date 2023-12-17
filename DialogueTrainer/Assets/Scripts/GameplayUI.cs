@@ -24,6 +24,18 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Answer1CSelected;
     public GameObject Scenario1AnswerNextButton;
 
+    public GameObject Scenario2Questions;
+    public GameObject Scenario2Question1Box;
+    public GameObject Scenario2Answer1Box;
+    public GameObject Scenario2Answer1ASelected;
+    public GameObject Scenario2Answer1BSelected;
+    public GameObject Scenario2Answer1CSelected;
+    public GameObject Scenario2AnswerNextButton;
+
+    public void ShowQuestion(int questionNumber)
+    {
+
+    }
     public void Scenario1Answer1Selected(int answerNumber)
     {
         switch (answerNumber)
@@ -50,5 +62,10 @@ public class GameplayUI : MonoBehaviour
                 Debug.LogError("No AUDIO for the answer");
                 break;
         }
+    }
+    public void AnswerNextButtonInteractables()
+    {
+        Scenario1AnswerNextButton.GetComponent<Button>().interactable = false;
+        Scenario2AnswerNextButton.GetComponent<Button>().interactable = false;
     }
 }
