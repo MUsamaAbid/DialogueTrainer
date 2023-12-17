@@ -17,5 +17,6 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int s)
     {
         totalScore += s;
+        GameplayUI.Instance.UpdateScore(totalScore);
     }
 }

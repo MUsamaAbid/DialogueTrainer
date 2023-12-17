@@ -12,6 +12,7 @@ public class GameplayUI : MonoBehaviour
         Instance = this;
     }
     #endregion
+    public Text Score;
 
     public GameObject TextContainer;
     public GameObject Scenario1;
@@ -43,6 +44,13 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Answer4BSelected;
     public GameObject Scenario1Answer4CSelected;
     public GameObject Scenario1Answer4NextButton;
+
+    public GameObject Scenario1Question5Box;
+    public GameObject Scenario1Answer5Box;
+    public GameObject Scenario1Answer5ASelected;
+    public GameObject Scenario1Answer5BSelected;
+    public GameObject Scenario1Answer5CSelected;
+    public GameObject Scenario1Answer5NextButton;
 
     public void Scenario1Answer1Selected(int answerNumber)
     {
@@ -172,11 +180,47 @@ public class GameplayUI : MonoBehaviour
         Scenario1Question4Box.SetActive(false);
         Scenario1Answer4Box.SetActive(false);
     }
+    public void Scenario1Answer5Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                Scenario1Answer5ASelected.SetActive(true);
+                Scenario1Answer5BSelected.SetActive(false);
+                Scenario1Answer5CSelected.SetActive(false);
+                Scenario1Answer5NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 2:
+                Scenario1Answer5ASelected.SetActive(false);
+                Scenario1Answer5BSelected.SetActive(true);
+                Scenario1Answer5CSelected.SetActive(false);
+                Scenario1Answer5NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 3:
+                Scenario1Answer5ASelected.SetActive(false);
+                Scenario1Answer5BSelected.SetActive(false);
+                Scenario1Answer5CSelected.SetActive(true);
+                Scenario1Answer5NextButton.GetComponent<Button>().interactable = true;
+                break;
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+    }
+    public void TurnQuestion5UIOff()
+    {
+        Scenario1Question5Box.SetActive(false);
+        Scenario1Answer5Box.SetActive(false);
+    }
     public void AnswerNextButtonInteractables()
     {
         Scenario1Answer1NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer2NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer3NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer4NextButton.GetComponent<Button>().interactable = false;
+    }
+    public void UpdateScore(int s)
+    {
+        Score.text = "Score: " + s.ToString();
     }
 }
