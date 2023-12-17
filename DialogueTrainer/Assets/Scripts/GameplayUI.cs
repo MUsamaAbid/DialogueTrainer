@@ -37,6 +37,13 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Answer3CSelected;
     public GameObject Scenario1Answer3NextButton;
 
+    public GameObject Scenario1Question4Box;
+    public GameObject Scenario1Answer4Box;
+    public GameObject Scenario1Answer4ASelected;
+    public GameObject Scenario1Answer4BSelected;
+    public GameObject Scenario1Answer4CSelected;
+    public GameObject Scenario1Answer4NextButton;
+
     public void Scenario1Answer1Selected(int answerNumber)
     {
         switch (answerNumber)
@@ -133,10 +140,43 @@ public class GameplayUI : MonoBehaviour
         Scenario1Question3Box.SetActive(false);
         Scenario1Answer3Box.SetActive(false);
     }
+    public void Scenario1Answer4Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                Scenario1Answer4ASelected.SetActive(true);
+                Scenario1Answer4BSelected.SetActive(false);
+                Scenario1Answer4CSelected.SetActive(false);
+                Scenario1Answer4NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 2:
+                Scenario1Answer4ASelected.SetActive(false);
+                Scenario1Answer4BSelected.SetActive(true);
+                Scenario1Answer4CSelected.SetActive(false);
+                Scenario1Answer4NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 3:
+                Scenario1Answer4ASelected.SetActive(false);
+                Scenario1Answer4BSelected.SetActive(false);
+                Scenario1Answer4CSelected.SetActive(true);
+                Scenario1Answer4NextButton.GetComponent<Button>().interactable = true;
+                break;
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+    }
+    public void TurnQuestion4UIOff()
+    {
+        Scenario1Question4Box.SetActive(false);
+        Scenario1Answer4Box.SetActive(false);
+    }
     public void AnswerNextButtonInteractables()
     {
         Scenario1Answer1NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer2NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer3NextButton.GetComponent<Button>().interactable = false;
+        Scenario1Answer4NextButton.GetComponent<Button>().interactable = false;
     }
 }
