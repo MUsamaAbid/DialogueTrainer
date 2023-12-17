@@ -16,25 +16,31 @@ public class GameplayUI : MonoBehaviour
     public GameObject TextContainer;
     public GameObject Scenario1;
 
-    public GameObject Scenario1Questions;
     public GameObject Scenario1Question1Box;
     public GameObject Scenario1Answer1Box;
     public GameObject Scenario1Answer1ASelected;
     public GameObject Scenario1Answer1BSelected;
     public GameObject Scenario1Answer1CSelected;
+
     public GameObject Scenario1AnswerNextButton;
 
-    public GameObject Scenario2Questions;
-    public GameObject Scenario2Question1Box;
-    public GameObject Scenario2Answer1Box;
-    public GameObject Scenario2Answer1ASelected;
-    public GameObject Scenario2Answer1BSelected;
-    public GameObject Scenario2Answer1CSelected;
-    public GameObject Scenario2AnswerNextButton;
+    public GameObject Scenario1Question2Box;
+    public GameObject Scenario1Answer2Box;
+    public GameObject Scenario1Answer2ASelected;
+    public GameObject Scenario1Answer2BSelected;
+    public GameObject Scenario1Answer2CSelected;
 
     public void ShowQuestion(int questionNumber)
     {
-
+        switch (questionNumber)
+        {
+            case 0:
+                Scenario1Question1Box.SetActive(true);
+                break;
+            case 1:
+                //Scenario2Questions.SetActive(true);
+                break;
+        }
     }
     public void Scenario1Answer1Selected(int answerNumber)
     {
@@ -66,6 +72,5 @@ public class GameplayUI : MonoBehaviour
     public void AnswerNextButtonInteractables()
     {
         Scenario1AnswerNextButton.GetComponent<Button>().interactable = false;
-        Scenario2AnswerNextButton.GetComponent<Button>().interactable = false;
     }
 }

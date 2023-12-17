@@ -113,6 +113,6 @@ public class GameplayManager : MonoBehaviour
 
         TaylaCam.SetActive(true);
         PlayerCam.SetActive(false);
-        currentQuestion++;
+        //currentQuestion++;
     }
 }
