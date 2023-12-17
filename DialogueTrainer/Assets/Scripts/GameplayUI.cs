@@ -30,6 +30,13 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Answer2CSelected;
     public GameObject Scenario1Answer2NextButton;
 
+    public GameObject Scenario1Question3Box;
+    public GameObject Scenario1Answer3Box;
+    public GameObject Scenario1Answer3ASelected;
+    public GameObject Scenario1Answer3BSelected;
+    public GameObject Scenario1Answer3CSelected;
+    public GameObject Scenario1Answer3NextButton;
+
     public void Scenario1Answer1Selected(int answerNumber)
     {
         switch (answerNumber)
@@ -89,9 +96,47 @@ public class GameplayUI : MonoBehaviour
                 break;
         }
     }
+    public void TurnQuestion2UIOff()
+    {
+        Scenario1Question2Box.SetActive(false);
+        Scenario1Answer2Box.SetActive(false);
+    }
+    public void Scenario1Answer3Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                Scenario1Answer3ASelected.SetActive(true);
+                Scenario1Answer3BSelected.SetActive(false);
+                Scenario1Answer3CSelected.SetActive(false);
+                Scenario1Answer3NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 2:
+                Scenario1Answer3ASelected.SetActive(false);
+                Scenario1Answer3BSelected.SetActive(true);
+                Scenario1Answer3CSelected.SetActive(false);
+                Scenario1Answer3NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 3:
+                Scenario1Answer3ASelected.SetActive(false);
+                Scenario1Answer3BSelected.SetActive(false);
+                Scenario1Answer3CSelected.SetActive(true);
+                Scenario1Answer3NextButton.GetComponent<Button>().interactable = true;
+                break;
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+    }
+    public void TurnQuestion3UIOff()
+    {
+        Scenario1Question3Box.SetActive(false);
+        Scenario1Answer3Box.SetActive(false);
+    }
     public void AnswerNextButtonInteractables()
     {
         Scenario1Answer1NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer2NextButton.GetComponent<Button>().interactable = false;
+        Scenario1Answer3NextButton.GetComponent<Button>().interactable = false;
     }
 }
