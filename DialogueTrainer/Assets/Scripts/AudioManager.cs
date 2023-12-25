@@ -29,6 +29,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip S1A5APlayer;
     public AudioClip S1A5BPlayer;
     public AudioClip S1A5CPlayer;
+
+    public AudioClip S1Q6Tayla;
+    public AudioClip S1A6APlayer;
+    public AudioClip S1A6BPlayer;
+    public AudioClip S1A6CPlayer;
     #endregion
 
     // Singleton instance
