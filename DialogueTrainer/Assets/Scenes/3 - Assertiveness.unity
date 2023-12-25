@@ -12301,10 +12301,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49c5acd05edb54bfa8b188e838167e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TaylaCam: {fileID: 306201003}
-  PlayerCam: {fileID: 963194225}
   Tayla: {fileID: 1649956562}
   Player: {fileID: 806816429}
+  NumberOfQuestions: 5
   Scenario1CorrectAnswers: 0100000001000000010000000100000001000000
 --- !u!4 &1638194938
 Transform:

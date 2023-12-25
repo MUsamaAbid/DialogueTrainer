@@ -12,11 +12,13 @@ public class GameplayManager : MonoBehaviour
     }
     #endregion
 
-    public GameObject TaylaCam;
-    public GameObject PlayerCam;
+    //public GameObject TaylaCam;
+    //public GameObject PlayerCam;
 
     public GameObject Tayla;
     public GameObject Player;
+
+    [SerializeField] int NumberOfQuestions;
 
     public int[] Scenario1CorrectAnswers;
     int currentQuestion = 0;
@@ -49,8 +51,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question1Box.SetActive(true);
         AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q1Tayla);
 
-        TaylaCam.SetActive(true);
-        PlayerCam.SetActive(false);
+        //TaylaCam.SetActive(true);
+        //PlayerCam.SetActive(false);
 
         Tayla.GetComponent<Animator>().SetTrigger("Talk");
     }
@@ -61,8 +63,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question2Box.SetActive(true);
         AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q2Tayla);
 
-        TaylaCam.SetActive(true);
-        PlayerCam.SetActive(false);
+        //TaylaCam.SetActive(true);
+        //PlayerCam.SetActive(false);
 
         Tayla.GetComponent<Animator>().SetTrigger("Talk");
     }
@@ -73,8 +75,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question3Box.SetActive(true);
         AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q3Tayla);
 
-        TaylaCam.SetActive(true);
-        PlayerCam.SetActive(false);
+        //TaylaCam.SetActive(true);
+        //PlayerCam.SetActive(false);
 
         Tayla.GetComponent<Animator>().SetTrigger("Talk");
     }
@@ -85,8 +87,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question4Box.SetActive(true);
         AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q4Tayla);
 
-        TaylaCam.SetActive(true);
-        PlayerCam.SetActive(false);
+        //TaylaCam.SetActive(true);
+        //PlayerCam.SetActive(false);
 
         Tayla.GetComponent<Animator>().SetTrigger("Talk");
     }
@@ -97,8 +99,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question5Box.SetActive(true);
         AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q5Tayla);
 
-        TaylaCam.SetActive(true);
-        PlayerCam.SetActive(false);
+        //TaylaCam.SetActive(true);
+        //PlayerCam.SetActive(false);
 
         Tayla.GetComponent<Animator>().SetTrigger("Talk");
     }
@@ -109,8 +111,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question1Box.SetActive(false);
         GameplayUI.Instance.Scenario1Answer1Box.SetActive(true);
 
-        PlayerCam.SetActive(true);
-        TaylaCam.SetActive(false);
+        //PlayerCam.SetActive(true);
+        //TaylaCam.SetActive(false);
 
     }
     public void ShowScenario1Question2AnswerBox()
@@ -120,8 +122,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question2Box.SetActive(false);
         GameplayUI.Instance.Scenario1Answer2Box.SetActive(true);
 
-        PlayerCam.SetActive(true);
-        TaylaCam.SetActive(false);
+        //PlayerCam.SetActive(true);
+        //TaylaCam.SetActive(false);
 
     }
     public void ShowScenario1Question3AnswerBox()
@@ -131,8 +133,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question3Box.SetActive(false);
         GameplayUI.Instance.Scenario1Answer3Box.SetActive(true);
 
-        PlayerCam.SetActive(true);
-        TaylaCam.SetActive(false);
+        //PlayerCam.SetActive(true);
+        //TaylaCam.SetActive(false);
 
     }
     public void ShowScenario1Question4AnswerBox()
@@ -142,8 +144,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question4Box.SetActive(false);
         GameplayUI.Instance.Scenario1Answer4Box.SetActive(true);
 
-        PlayerCam.SetActive(true);
-        TaylaCam.SetActive(false);
+        //PlayerCam.SetActive(true);
+        //TaylaCam.SetActive(false);
     }
     public void ShowScenario1Question5AnswerBox()
     {
@@ -152,8 +154,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Question5Box.SetActive(false);
         GameplayUI.Instance.Scenario1Answer5Box.SetActive(true);
 
-        PlayerCam.SetActive(true);
-        TaylaCam.SetActive(false);
+        //PlayerCam.SetActive(true);
+        //TaylaCam.SetActive(false);
     }
     public void Scenario1Answer1Selected(int answerNumber)
     {
@@ -332,30 +334,37 @@ public class GameplayManager : MonoBehaviour
         }
         GameplayUI.Instance.AnswerNextButtonInteractables();
 
-        TaylaCam.SetActive(true);
-        PlayerCam.SetActive(false);
+        //TaylaCam.SetActive(true);
+        //PlayerCam.SetActive(false);
         currentQuestion++;
-        Invoke("LoadNextQuestion", 5f);
+        Invoke("LoadNextQuestion", 0f);
     }
     void LoadNextQuestion()
     {
-        switch (currentQuestion)
+        if (currentQuestion <= NumberOfQuestions - 1)
         {
-            case 0:
-                Scenario1Question1();
-                break;
-            case 1:
-                Scenario1Question2();
-                break;
-            case 2:
-                Scenario1Question3();
-                break;
-            case 3:
-                Scenario1Question4();
-                break;
-            case 4:
-                Scenario1Question5();
-                break;
+            switch (currentQuestion)
+            {
+                case 0:
+                    Scenario1Question1();
+                    break;
+                case 1:
+                    Scenario1Question2();
+                    break;
+                case 2:
+                    Scenario1Question3();
+                    break;
+                case 3:
+                    Scenario1Question4();
+                    break;
+                case 4:
+                    Scenario1Question5();
+                    break;
+            }
+        }
+        else
+        {
+            Debug.Log("Game ended");
         }
     }
 }
