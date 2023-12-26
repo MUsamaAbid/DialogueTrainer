@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/1 - Self disclosure.unity
+    guid: 1138d85c58ab449c186aadf8779572c7
+  - enabled: 1
+    path: Assets/Scenes/2 - Empathy.unity
+    guid: aeae160d3b72042d6bb329009046df8c
+  - enabled: 1
     path: Assets/Scenes/3 - Assertiveness.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/4 - Interactive management.unity
+    guid: 080432fca0ad94135a9253a625de7eef
+  - enabled: 1
+    path: Assets/Scenes/5 - Supportiveness - incomplete.unity
+    guid: e90dff52726624815ac1b118796fc4d5
   m_configObjects: {}

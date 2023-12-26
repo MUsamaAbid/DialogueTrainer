@@ -1143,8 +1143,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next time you want to work remotely when you should be at work, let us
-    know.
+  m_Text: The team is complaining that you are arriving to work late consistently.
 --- !u!222 &124969704
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4028,7 +4027,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -18.4869, y: -0.0007324219}
-  m_SizeDelta: {x: 1793.1564, y: 3249.415}
+  m_SizeDelta: {x: 1793.1564, y: 3208.623}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -4063,35 +4062,29 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Interaction Management\nLearning outcomes\nDefine interaction management\nWhy
-    is interaction management critical?\nWhat does interaction management include?\n\nInteraction
-    management is a program designed to improve leadership skills in productivity,
-    handling employee conflict, performance improvement, delegation, and overcoming
-    resistance to change by teaching positive behavior and job application models.
-    \nWhy is interaction management critical?\nThe interaction management program
-    provides a step-by-step approach for handling each difficult interaction situation.
-    Breaking problematic situations into critical steps gives the learner a reasonable
-    and understandable strategy for accomplishing tasks. Interaction management is
-    essential to businesses since they can track interactions to set benchmarks,
-    pinpoint customer engagement problems, and compare performance.\nWhat does interaction
-    management include?\nInteraction management is a program designed to improve
-    leadership skills in productivity, handling employee conflict, performance improvement,
-    delegation, and overcoming resistance to change by teaching positive behavior
-    models and on-the-job application. Interaction management is realized during
-    all the stages of the communication process, and its effectiveness depends on
-    the person's abilities to manage their specific interaction behaviors. Thus,
-    interaction is based on the people\u2019s abilities to start a conversation effectively,
-    to develop the topic, and to terminate a conversation with references to the
-    interests of the persons participating in it. If the communication process develops
-    positively and results in satisfactory or advantageous outcomes for all parties,
-    it is possible to speak about the high level of interaction management.\nA person
-    who is good in interaction management knows when to start an effective conversation,
-    how to develop the topic with references to the interests of all the parties,
-    and how to meet the needs of the participants. Interaction management is essential
-    for people to learn how to communicate effectively. By managing the communication
-    process, people can avoid extremes in their communication strategies and achieve
-    higher interaction results. The development of interaction management abilities
-    guarantees progress in communication competence. "
+  m_Text: "Supportiveness\nLearning outcomes\nDefine supportiveness.\nBenefits of
+    supportiveness\nWhy is support so important to someone?\n\nSupportiveness is
+    defined as showing agreement and giving encouragement.\nBenefits\nSupportive
+    relationships offer:\nBetter health\nLonger lives\nHigher well-being\nImproving
+    skills to cope with challenges\nAllow individuals to talk openly and honestly
+    about one\u2019s feelings\nReduce distress, depression, anxiety, or fatigue.\nFeeling
+    less lonely, isolated, or judged.\nType of Support?\nInformational support provides
+    knowledge, advice, or resources that someone can use to address specific challenges
+    or decisions.\nEmotional support entails showing empathy, understanding, and
+    care. Listening and offering reassurance during times of distress are vital components\nFinancial
+    support involves providing monetary assistance, either directly as cash or indirectly,
+    such as helping pay bills or providing resources.\nPhysical support offers hands-on
+    help, such as assisting someone with mobility, providing a place to stay, or
+    aiding in daily tasks like cooking or cleaning.\nSocial support facilitates companionship
+    and a sense of belonging, including spending time together, attending events,
+    or simply being present during challenging times.\nSpiritual support caters to
+    an individual's spiritual or religious needs, possibly by praying together, discussing
+    philosophical beliefs, or attending religious services. \nPractical support is
+    similar to instrument support; this involves giving tangible assistance in day-to-day
+    tasks or challenges, like helping with paperwork, repairs, or organizing. \nRecognizing
+    the kind of support needed in different situations can significantly enhance
+    the quality of assistance provided, ensuring that individuals feel adequately
+    supported in all aspects of their lives. "
 --- !u!222 &516832933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5511,8 +5504,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I have noticed you were off the last two days when you were assigned to
-    work at the front. Can you tell me what is happening?
+  m_Text: 'Are you having difficulties in coming to work? I have observed you coming
+    late on the night shift for this week. '
 --- !u!222 &650880529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9920,8 +9913,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Our hospital policy states a 50% only remote work. You have been working
-    longer at home than the policy says
+  m_Text: So why do you come to work so late at night? It is disruptive for the other
+    staff.
 --- !u!222 &1221140981
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10659,8 +10652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 615, y: -225.58813}
-  m_SizeDelta: {x: 600, y: 198.8238}
+  m_AnchoredPosition: {x: 603.75073, y: -225.58813}
+  m_SizeDelta: {x: 577.5016, y: 198.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304541092
 MonoBehaviour:
@@ -12208,7 +12201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Good day, you wanted to talk with me?
+  m_Text: 'Davey, can I have a word with you in the office? '
 --- !u!222 &1496140222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14616,7 +14609,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 1.0000004
-  m_Size: 0.3323675
+  m_Size: 0.33659297
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15647,7 +15640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1783265003
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17245,8 +17238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 248}
-  m_SizeDelta: {x: 1610.6101, y: 272.3723}
+  m_AnchoredPosition: {x: 0, y: 192.09}
+  m_SizeDelta: {x: 1610.6101, y: 384.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985788335
 MonoBehaviour:
@@ -17281,13 +17274,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'As the charge nurse, you have been informed that all Precert nursing teams
-    are allowed to work remotely for 50% only as per hospital policy.  Sarah has
-    continued to work remotely, although was expected to come in and was assigned
-    to manage the front desk as the office is now open to the public.  You have invited
-    Sarah to a meeting.
-
-'
+  m_Text: "Davey is a staff nurse with ten years of experience. When Davey is on
+    the night shift, Davey regularly comes in late, sometimes after the report is
+    completed for one or two patients. This usually results in staff leaving late
+    and the information needing to be more timely. Davey would sometimes ask to change
+    into scrubs first as he came into regular casual wear clothing. The team has
+    been complaining, and tonight, Tonieta has come to you and asked for your intervention
+    as the assigned charge nurse. It is the end of the shift, and you have decided
+    to address Davey's late arrival at work. \n"
 --- !u!222 &1985788336
 CanvasRenderer:
   m_ObjectHideFlags: 0

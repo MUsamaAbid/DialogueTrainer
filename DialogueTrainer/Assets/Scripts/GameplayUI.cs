@@ -59,6 +59,27 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Answer6CSelected;
     public GameObject Scenario1Answer6NextButton;
 
+    public GameObject Scenario1Question7Box;
+    public GameObject Scenario1Answer7Box;
+    public GameObject Scenario1Answer7ASelected;
+    public GameObject Scenario1Answer7BSelected;
+    public GameObject Scenario1Answer7CSelected;
+    public GameObject Scenario1Answer7NextButton;
+
+    public GameObject Scenario1Question8Box;
+    public GameObject Scenario1Answer8Box;
+    public GameObject Scenario1Answer8ASelected;
+    public GameObject Scenario1Answer8BSelected;
+    public GameObject Scenario1Answer8CSelected;
+    public GameObject Scenario1Answer8NextButton;
+
+    public GameObject Scenario1Question9Box;
+    public GameObject Scenario1Answer9Box;
+    public GameObject Scenario1Answer9ASelected;
+    public GameObject Scenario1Answer9BSelected;
+    public GameObject Scenario1Answer9CSelected;
+    public GameObject Scenario1Answer9NextButton;
+
     public void Scenario1Answer1Selected(int answerNumber)
     {
         switch (answerNumber)
@@ -88,7 +109,9 @@ public class GameplayUI : MonoBehaviour
     }
     public void TurnQuestion1UIOff()
     {
+        if (Scenario1Question1Box)
         Scenario1Question1Box.SetActive(false);
+        if (Scenario1Answer1Box)
         Scenario1Answer1Box.SetActive(false);
     }
     public void Scenario1Answer2Selected(int answerNumber)
@@ -120,7 +143,9 @@ public class GameplayUI : MonoBehaviour
     }
     public void TurnQuestion2UIOff()
     {
+        if (Scenario1Question2Box)
         Scenario1Question2Box.SetActive(false);
+        if (Scenario1Answer2Box)
         Scenario1Answer2Box.SetActive(false);
     }
     public void Scenario1Answer3Selected(int answerNumber)
@@ -152,7 +177,9 @@ public class GameplayUI : MonoBehaviour
     }
     public void TurnQuestion3UIOff()
     {
+        if (Scenario1Question3Box)
         Scenario1Question3Box.SetActive(false);
+        if (Scenario1Answer3Box)
         Scenario1Answer3Box.SetActive(false);
     }
     public void Scenario1Answer4Selected(int answerNumber)
@@ -184,7 +211,9 @@ public class GameplayUI : MonoBehaviour
     }
     public void TurnQuestion4UIOff()
     {
+        if (Scenario1Question4Box)
         Scenario1Question4Box.SetActive(false);
+        if (Scenario1Answer4Box)
         Scenario1Answer4Box.SetActive(false);
     }
     public void Scenario1Answer5Selected(int answerNumber)
@@ -216,7 +245,9 @@ public class GameplayUI : MonoBehaviour
     }
     public void TurnQuestion5UIOff()
     {
+        if (Scenario1Question5Box)
         Scenario1Question5Box.SetActive(false);
+        if (Scenario1Answer5Box)
         Scenario1Answer5Box.SetActive(false);
     }
     public void Scenario1Answer6Selected(int answerNumber)
@@ -248,8 +279,115 @@ public class GameplayUI : MonoBehaviour
     }
     public void TurnQuestion6UIOff()
     {
+        if (Scenario1Question6Box)
         Scenario1Question6Box.SetActive(false);
+        if (Scenario1Answer6Box)
         Scenario1Answer6Box.SetActive(false);
+    }
+    public void Scenario1Answer7Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                Scenario1Answer7ASelected.SetActive(true);
+                Scenario1Answer7BSelected.SetActive(false);
+                Scenario1Answer7CSelected.SetActive(false);
+                Scenario1Answer7NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 2:
+                Scenario1Answer7ASelected.SetActive(false);
+                Scenario1Answer7BSelected.SetActive(true);
+                Scenario1Answer7CSelected.SetActive(false);
+                Scenario1Answer7NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 3:
+                Scenario1Answer7ASelected.SetActive(false);
+                Scenario1Answer7BSelected.SetActive(false);
+                Scenario1Answer7CSelected.SetActive(true);
+                Scenario1Answer7NextButton.GetComponent<Button>().interactable = true;
+                break;
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+    }
+    public void TurnQuestion7UIOff()
+    {
+        if (Scenario1Question7Box)
+            Scenario1Question7Box.SetActive(false);
+
+        if (Scenario1Answer7Box)
+            Scenario1Answer7Box.SetActive(false);
+    }
+    public void Scenario1Answer8Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                Scenario1Answer8ASelected.SetActive(true);
+                Scenario1Answer8BSelected.SetActive(false);
+                Scenario1Answer8CSelected.SetActive(false);
+                Scenario1Answer8NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 2:
+                Scenario1Answer8ASelected.SetActive(false);
+                Scenario1Answer8BSelected.SetActive(true);
+                Scenario1Answer8CSelected.SetActive(false);
+                Scenario1Answer8NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 3:
+                Scenario1Answer8ASelected.SetActive(false);
+                Scenario1Answer8BSelected.SetActive(false);
+                Scenario1Answer8CSelected.SetActive(true);
+                Scenario1Answer8NextButton.GetComponent<Button>().interactable = true;
+                break;
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+    }
+    public void TurnQuestion8UIOff()
+    {
+        if(Scenario1Question8Box)
+        Scenario1Question8Box.SetActive(false);
+
+        if(Scenario1Answer8Box)
+        Scenario1Answer8Box.SetActive(false);
+    }
+    public void Scenario1Answer9Selected(int answerNumber)
+    {
+        switch (answerNumber)
+        {
+            case 1:
+                Scenario1Answer9ASelected.SetActive(true);
+                Scenario1Answer9BSelected.SetActive(false);
+                Scenario1Answer9CSelected.SetActive(false);
+                Scenario1Answer9NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 2:
+                Scenario1Answer9ASelected.SetActive(false);
+                Scenario1Answer9BSelected.SetActive(true);
+                Scenario1Answer9CSelected.SetActive(false);
+                Scenario1Answer9NextButton.GetComponent<Button>().interactable = true;
+                break;
+            case 3:
+                Scenario1Answer9ASelected.SetActive(false);
+                Scenario1Answer9BSelected.SetActive(false);
+                Scenario1Answer9CSelected.SetActive(true);
+                Scenario1Answer9NextButton.GetComponent<Button>().interactable = true;
+                break;
+            default:
+                Debug.LogError("No AUDIO for the answer");
+                break;
+        }
+    }
+    public void TurnQuestion9UIOff()
+    {
+        if (Scenario1Question9Box)
+            Scenario1Question9Box.SetActive(false);
+
+        if (Scenario1Answer9Box)
+            Scenario1Answer9Box.SetActive(false);
     }
     public void AnswerNextButtonInteractables()
     {
@@ -258,6 +396,9 @@ public class GameplayUI : MonoBehaviour
         Scenario1Answer3NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer4NextButton.GetComponent<Button>().interactable = false;
         Scenario1Answer5NextButton.GetComponent<Button>().interactable = false;
+        Scenario1Answer6NextButton.GetComponent<Button>().interactable = false;
+        Scenario1Answer7NextButton.GetComponent<Button>().interactable = false;
+        Scenario1Answer8NextButton.GetComponent<Button>().interactable = false;
     }
     public void UpdateScore(int s)
     {
