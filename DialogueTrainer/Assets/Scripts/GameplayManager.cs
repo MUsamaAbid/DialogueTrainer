@@ -23,6 +23,7 @@ public class GameplayManager : MonoBehaviour
     public int[] Scenario1CorrectAnswers;
     int currentQuestion = 0;
     int currentAnswer;
+    bool optionSelected = false;
 
     public void TextContainerNextButtonPressed()
     {
@@ -247,6 +248,8 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer1Selected(int answerNumber)
     {
+        if (optionSelected) return;
+
         switch (answerNumber)
         {
             case 1:
@@ -278,6 +281,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer2Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -309,6 +313,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer3Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -340,6 +345,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer4Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -371,6 +377,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer5Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -402,6 +409,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer6Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -433,6 +441,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer7Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -464,6 +473,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer8Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -495,6 +505,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1Answer9Selected(int answerNumber)
     {
+        if (optionSelected) return;
         switch (answerNumber)
         {
             case 1:
@@ -526,16 +537,16 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1CheckForAnswer()
     {
-        GameplayUI.Instance.TurnQuestion1UIOff();
-        GameplayUI.Instance.TurnQuestion2UIOff();
-        GameplayUI.Instance.TurnQuestion3UIOff();
-        GameplayUI.Instance.TurnQuestion4UIOff();
-        GameplayUI.Instance.TurnQuestion5UIOff();
-        GameplayUI.Instance.TurnQuestion6UIOff();
-        GameplayUI.Instance.TurnQuestion7UIOff();
-        GameplayUI.Instance.TurnQuestion8UIOff();
-        GameplayUI.Instance.TurnQuestion9UIOff();
-
+        //GameplayUI.Instance.TurnQuestion1UIOff();
+        //GameplayUI.Instance.TurnQuestion2UIOff();
+        //GameplayUI.Instance.TurnQuestion3UIOff();
+        //GameplayUI.Instance.TurnQuestion4UIOff();
+        //GameplayUI.Instance.TurnQuestion5UIOff();
+        //GameplayUI.Instance.TurnQuestion6UIOff();
+        //GameplayUI.Instance.TurnQuestion7UIOff();
+        //GameplayUI.Instance.TurnQuestion8UIOff();
+        //GameplayUI.Instance.TurnQuestion9UIOff();
+        optionSelected = true;
         AudioManager.Instance.StopSound();
         if (currentAnswer == Scenario1CorrectAnswers[currentQuestion])
         {
@@ -553,10 +564,22 @@ public class GameplayManager : MonoBehaviour
         //TaylaCam.SetActive(true);
         //PlayerCam.SetActive(false);
         currentQuestion++;
-        Invoke("LoadNextQuestion", 0f);
+        Invoke("LoadNextQuestion", 3f);
     }
     void LoadNextQuestion()
     {
+        GameplayUI.Instance.TurnQuestion1UIOff();
+        GameplayUI.Instance.TurnQuestion2UIOff();
+        GameplayUI.Instance.TurnQuestion3UIOff();
+        GameplayUI.Instance.TurnQuestion4UIOff();
+        GameplayUI.Instance.TurnQuestion5UIOff();
+        GameplayUI.Instance.TurnQuestion6UIOff();
+        GameplayUI.Instance.TurnQuestion7UIOff();
+        GameplayUI.Instance.TurnQuestion8UIOff();
+        GameplayUI.Instance.TurnQuestion9UIOff();
+
+        optionSelected = false;
+
         if (currentQuestion <= NumberOfQuestions - 1)
         {
             switch (currentQuestion)
