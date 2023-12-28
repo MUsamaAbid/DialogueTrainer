@@ -950,7 +950,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113985984}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -6937,31 +6937,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf0a6a5b2bb4f15ae253a2a1137fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scenario1: {fileID: 8300000, guid: 0cb68a132d8524da7985716cbcd788c9, type: 3}
-  S1Q1Tayla: {fileID: 8300000, guid: 5e37929353fc9493cb0ab61b7c33cd0a, type: 3}
+  Scenario1: {fileID: 8300000, guid: bc1ca5265024148a8924279193ce69fe, type: 3}
+  S1Q1Tayla: {fileID: 8300000, guid: 947116c79d5df460c93ef8602b09415e, type: 3}
   S1A1APlayer: {fileID: 8300000, guid: b151ad189ae774c99bfd4c2883037a9f, type: 3}
   S1A1BPlayer: {fileID: 8300000, guid: 1942757050568470e84705b6be3004e7, type: 3}
   S1A1CPlayer: {fileID: 8300000, guid: ef46c61b9a106458685d74d50ac808ce, type: 3}
-  S1Q2Tayla: {fileID: 8300000, guid: 3627ce3353e024b66aca4f8928e93581, type: 3}
+  S1Q2Tayla: {fileID: 8300000, guid: ef4a321aa48ea4e56ad1a40cfa5456c6, type: 3}
   S1A2APlayer: {fileID: 8300000, guid: b767c35e623f948d6ab446b16ad3d8c9, type: 3}
   S1A2BPlayer: {fileID: 8300000, guid: 39aa2551215504b8e8924f60713f49b0, type: 3}
   S1A2CPlayer: {fileID: 8300000, guid: 6f517cda83d0a4ccd9e4c8065c17a33b, type: 3}
-  S1Q3Tayla: {fileID: 8300000, guid: 80a0e08ba966d45a4b8a8d6e7e7b62fc, type: 3}
+  S1Q3Tayla: {fileID: 8300000, guid: 8bd5f2eb6e53e4d16b0767fe06fea87c, type: 3}
   S1A3APlayer: {fileID: 8300000, guid: 1ca0484523f9246c58a0f4ded681226a, type: 3}
   S1A3BPlayer: {fileID: 8300000, guid: 4a99a55bfd4cc47a4a858c46110de94e, type: 3}
   S1A3CPlayer: {fileID: 8300000, guid: ef1befebe866b4df0a5cb0f4c6167ca1, type: 3}
-  S1Q4Tayla: {fileID: 8300000, guid: 8d5d2741384cc491daa9da4df5f15832, type: 3}
+  S1Q4Tayla: {fileID: 8300000, guid: ad269806ecc4d4badafd6044dc412684, type: 3}
   S1A4APlayer: {fileID: 8300000, guid: 350dd99f1991942128e7f167e96dc987, type: 3}
   S1A4BPlayer: {fileID: 8300000, guid: 2dce0211e12de4f6eb644a08c3af61fd, type: 3}
   S1A4CPlayer: {fileID: 8300000, guid: df7120590495e451c88399c2cfa2a69f, type: 3}
-  S1Q5Tayla: {fileID: 8300000, guid: 294ee9c71ca034e6d893cf324be85b3c, type: 3}
+  S1Q5Tayla: {fileID: 8300000, guid: 723caa494e97a4dd285f704b7e2c126a, type: 3}
   S1A5APlayer: {fileID: 8300000, guid: 9d4c60cd876344586bc1759fcbb89de2, type: 3}
   S1A5BPlayer: {fileID: 8300000, guid: 8766b47daeb884c31afc61df375f0d81, type: 3}
   S1A5CPlayer: {fileID: 8300000, guid: 375c542220e3d446bb046ed804804d8a, type: 3}
-  S1Q6Tayla: {fileID: 8300000, guid: 8d5d2741384cc491daa9da4df5f15832, type: 3}
+  S1Q6Tayla: {fileID: 8300000, guid: c0b5c7a9baa3747d3a21b3a028b2824b, type: 3}
   S1A6APlayer: {fileID: 8300000, guid: 350dd99f1991942128e7f167e96dc987, type: 3}
   S1A6BPlayer: {fileID: 8300000, guid: 350dd99f1991942128e7f167e96dc987, type: 3}
   S1A6CPlayer: {fileID: 8300000, guid: 80a0e08ba966d45a4b8a8d6e7e7b62fc, type: 3}
+  S1Q7Tayla: {fileID: 0}
+  S1A7APlayer: {fileID: 0}
+  S1A7BPlayer: {fileID: 0}
+  S1A7CPlayer: {fileID: 0}
+  S1Q8Tayla: {fileID: 0}
+  S1A8APlayer: {fileID: 0}
+  S1A8BPlayer: {fileID: 0}
+  S1A8CPlayer: {fileID: 0}
+  S1Q9Tayla: {fileID: 0}
+  S1A9APlayer: {fileID: 0}
+  S1A9BPlayer: {fileID: 0}
+  S1A9CPlayer: {fileID: 0}
 --- !u!82 &790432664
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14453,6 +14465,24 @@ MonoBehaviour:
   Scenario1Answer6BSelected: {fileID: 893182618}
   Scenario1Answer6CSelected: {fileID: 430016583}
   Scenario1Answer6NextButton: {fileID: 1392238847}
+  Scenario1Question7Box: {fileID: 0}
+  Scenario1Answer7Box: {fileID: 0}
+  Scenario1Answer7ASelected: {fileID: 0}
+  Scenario1Answer7BSelected: {fileID: 0}
+  Scenario1Answer7CSelected: {fileID: 0}
+  Scenario1Answer7NextButton: {fileID: 0}
+  Scenario1Question8Box: {fileID: 0}
+  Scenario1Answer8Box: {fileID: 0}
+  Scenario1Answer8ASelected: {fileID: 0}
+  Scenario1Answer8BSelected: {fileID: 0}
+  Scenario1Answer8CSelected: {fileID: 0}
+  Scenario1Answer8NextButton: {fileID: 0}
+  Scenario1Question9Box: {fileID: 0}
+  Scenario1Answer9Box: {fileID: 0}
+  Scenario1Answer9ASelected: {fileID: 0}
+  Scenario1Answer9BSelected: {fileID: 0}
+  Scenario1Answer9CSelected: {fileID: 0}
+  Scenario1Answer9NextButton: {fileID: 0}
 --- !u!1 &1683409357
 GameObject:
   m_ObjectHideFlags: 0
