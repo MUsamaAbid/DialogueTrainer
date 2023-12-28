@@ -17,6 +17,8 @@ public class GameplayUI : MonoBehaviour
     public GameObject TextContainer;
     public GameObject Scenario1;
 
+    public GameObject ExtraPanel;
+
     public GameObject Scenario1Question1Box;
     public GameObject Scenario1Answer1Box;
     public GameObject Scenario1Answer1ASelected;
@@ -80,6 +82,10 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Answer9CSelected;
     public GameObject Scenario1Answer9NextButton;
 
+    public void TurnOffExtraPanel()
+    {
+        ExtraPanel.SetActive(false);
+    }
     public void Scenario1Answer1Selected(int answerNumber)
     {
         switch (answerNumber)

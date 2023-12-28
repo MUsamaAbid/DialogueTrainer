@@ -36,7 +36,22 @@ public class GameplayManager : MonoBehaviour
 
         AudioManager.Instance.PlaySound(AudioManager.Instance.Scenario1);
     }
+    public void StartExtra()
+    {
+        GameplayUI.Instance.Scenario1.SetActive(false);
+        GameplayUI.Instance.ExtraPanel.SetActive(true);
 
+        AudioManager.Instance.StopSound();
+        AudioManager.Instance.PlaySound(AudioManager.Instance.StartExtra);
+    }
+    public void StartExtraNextButton()
+    {
+        GameplayUI.Instance.ExtraPanel.SetActive(false);
+
+        AudioManager.Instance.StopSound();
+
+        Scenario1Question1();
+    }
     public void Scenario1NextButtonPressed()
     {
         GameplayUI.Instance.Scenario1.SetActive(false);

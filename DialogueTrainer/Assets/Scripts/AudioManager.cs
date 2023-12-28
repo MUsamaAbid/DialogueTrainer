@@ -5,6 +5,8 @@ public class AudioManager : MonoBehaviour
     #region Scenario 1
     public AudioClip Scenario1;
 
+    public AudioClip StartExtra;
+
     public AudioClip S1Q1Tayla;
     public AudioClip S1A1APlayer;
     public AudioClip S1A1BPlayer;
