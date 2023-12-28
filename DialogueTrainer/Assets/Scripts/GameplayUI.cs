@@ -391,14 +391,22 @@ public class GameplayUI : MonoBehaviour
     }
     public void AnswerNextButtonInteractables()
     {
-        Scenario1Answer1NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer2NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer3NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer4NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer5NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer6NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer7NextButton.GetComponent<Button>().interactable = false;
-        Scenario1Answer8NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer1NextButton)
+            Scenario1Answer1NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer2NextButton)
+            Scenario1Answer2NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer3NextButton)
+            Scenario1Answer3NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer4NextButton)
+            Scenario1Answer4NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer5NextButton)
+            Scenario1Answer5NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer6NextButton)
+            Scenario1Answer6NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer7NextButton)
+            Scenario1Answer7NextButton.GetComponent<Button>().interactable = false;
+        if(Scenario1Answer8NextButton)
+            Scenario1Answer8NextButton.GetComponent<Button>().interactable = false;
     }
     public void UpdateScore(int s)
     {

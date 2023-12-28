@@ -254,21 +254,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A1APlayer);
+                //AudioManager.Instance.PlaySound(AudioManager.Instance.S1A1APlayer);
                 GameplayUI.Instance.Scenario1Answer1Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A1BPlayer);
+                //AudioManager.Instance.PlaySound(AudioManager.Instance.S1A1BPlayer);
                 GameplayUI.Instance.Scenario1Answer1Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A1CPlayer);
+                //AudioManager.Instance.PlaySound(AudioManager.Instance.S1A1CPlayer);
                 GameplayUI.Instance.Scenario1Answer1Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -286,21 +286,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2APlayer);
+                //AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2APlayer);
                 GameplayUI.Instance.Scenario1Answer2Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2BPlayer);
+                //AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2BPlayer);
                 GameplayUI.Instance.Scenario1Answer2Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2CPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A2CPlayer);
                 GameplayUI.Instance.Scenario1Answer2Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -318,21 +318,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A3APlayer);
+                //AudioManager.Instance.PlaySound(AudioManager.Instance.S1A3APlayer);
                 GameplayUI.Instance.Scenario1Answer3Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A3BPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A3BPlayer);
                 GameplayUI.Instance.Scenario1Answer3Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A3CPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A3CPlayer);
                 GameplayUI.Instance.Scenario1Answer3Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -350,21 +350,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A4APlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A4APlayer);
                 GameplayUI.Instance.Scenario1Answer4Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A4BPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A4BPlayer);
                 GameplayUI.Instance.Scenario1Answer4Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A4CPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A4CPlayer);
                 GameplayUI.Instance.Scenario1Answer4Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -382,21 +382,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A5APlayer);
+             //   AudioManager.Instance.PlaySound(AudioManager.Instance.S1A5APlayer);
                 GameplayUI.Instance.Scenario1Answer5Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A5BPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A5BPlayer);
                 GameplayUI.Instance.Scenario1Answer5Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A5CPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A5CPlayer);
                 GameplayUI.Instance.Scenario1Answer5Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -414,21 +414,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A6APlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A6APlayer);
                 GameplayUI.Instance.Scenario1Answer6Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A6BPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A6BPlayer);
                 GameplayUI.Instance.Scenario1Answer6Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A6CPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A6CPlayer);
                 GameplayUI.Instance.Scenario1Answer6Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -446,21 +446,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A7APlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A7APlayer);
                 GameplayUI.Instance.Scenario1Answer7Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A7BPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A7BPlayer);
                 GameplayUI.Instance.Scenario1Answer7Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A7CPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A7CPlayer);
                 GameplayUI.Instance.Scenario1Answer7Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -478,21 +478,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A8APlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A8APlayer);
                 GameplayUI.Instance.Scenario1Answer8Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A8BPlayer);
+              //  AudioManager.Instance.PlaySound(AudioManager.Instance.S1A8BPlayer);
                 GameplayUI.Instance.Scenario1Answer8Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A8CPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A8CPlayer);
                 GameplayUI.Instance.Scenario1Answer8Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -510,21 +510,21 @@ public class GameplayManager : MonoBehaviour
         {
             case 1:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A9APlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A9APlayer);
                 GameplayUI.Instance.Scenario1Answer9Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 2:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A9BPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A9BPlayer);
                 GameplayUI.Instance.Scenario1Answer9Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
 
             case 3:
                 AudioManager.Instance.StopSound();
-                AudioManager.Instance.PlaySound(AudioManager.Instance.S1A9CPlayer);
+               // AudioManager.Instance.PlaySound(AudioManager.Instance.S1A9CPlayer);
                 GameplayUI.Instance.Scenario1Answer9Selected(answerNumber);
                 Player.GetComponent<Animator>().SetTrigger("Talk");
                 break;
@@ -564,7 +564,7 @@ public class GameplayManager : MonoBehaviour
         //TaylaCam.SetActive(true);
         //PlayerCam.SetActive(false);
         currentQuestion++;
-        Invoke("LoadNextQuestion", 3f);
+        Invoke("LoadNextQuestion", 0f);
     }
     void LoadNextQuestion()
     {
