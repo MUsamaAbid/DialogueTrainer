@@ -8904,32 +8904,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf0a6a5b2bb4f15ae253a2a1137fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scenario1: {fileID: 8300000, guid: 0cb68a132d8524da7985716cbcd788c9, type: 3}
-  S1Q1Tayla: {fileID: 8300000, guid: 5e37929353fc9493cb0ab61b7c33cd0a, type: 3}
+  Scenario1: {fileID: 8300000, guid: b4cc458af28674e1886a32c918027ecc, type: 3}
+  StartExtra: {fileID: 0}
+  ExtraPanel2: {fileID: 8300000, guid: d04ddc125ab464190b3d51c904bb6e36, type: 3}
+  S1Q1Tayla: {fileID: 8300000, guid: f315d367003c546ab80968aad751d0f1, type: 3}
   S1A1APlayer: {fileID: 8300000, guid: b151ad189ae774c99bfd4c2883037a9f, type: 3}
   S1A1BPlayer: {fileID: 8300000, guid: 1942757050568470e84705b6be3004e7, type: 3}
   S1A1CPlayer: {fileID: 8300000, guid: ef46c61b9a106458685d74d50ac808ce, type: 3}
-  S1Q2Tayla: {fileID: 8300000, guid: 3627ce3353e024b66aca4f8928e93581, type: 3}
+  S1Q2Tayla: {fileID: 8300000, guid: f015840a66d294efa881a4b5335d8719, type: 3}
   S1A2APlayer: {fileID: 8300000, guid: b767c35e623f948d6ab446b16ad3d8c9, type: 3}
   S1A2BPlayer: {fileID: 8300000, guid: 39aa2551215504b8e8924f60713f49b0, type: 3}
   S1A2CPlayer: {fileID: 8300000, guid: 6f517cda83d0a4ccd9e4c8065c17a33b, type: 3}
-  S1Q3Tayla: {fileID: 8300000, guid: 80a0e08ba966d45a4b8a8d6e7e7b62fc, type: 3}
+  S1Q3Tayla: {fileID: 8300000, guid: 7520ec4c754994615932f514548c13b3, type: 3}
   S1A3APlayer: {fileID: 8300000, guid: 1ca0484523f9246c58a0f4ded681226a, type: 3}
   S1A3BPlayer: {fileID: 8300000, guid: 4a99a55bfd4cc47a4a858c46110de94e, type: 3}
   S1A3CPlayer: {fileID: 8300000, guid: ef1befebe866b4df0a5cb0f4c6167ca1, type: 3}
-  S1Q4Tayla: {fileID: 8300000, guid: 8d5d2741384cc491daa9da4df5f15832, type: 3}
+  S1Q4Tayla: {fileID: 8300000, guid: 6929d27c925ae4aa28657d48c18154c6, type: 3}
   S1A4APlayer: {fileID: 8300000, guid: 350dd99f1991942128e7f167e96dc987, type: 3}
   S1A4BPlayer: {fileID: 8300000, guid: 2dce0211e12de4f6eb644a08c3af61fd, type: 3}
   S1A4CPlayer: {fileID: 8300000, guid: df7120590495e451c88399c2cfa2a69f, type: 3}
-  S1Q5Tayla: {fileID: 8300000, guid: 294ee9c71ca034e6d893cf324be85b3c, type: 3}
+  S1Q5Tayla: {fileID: 8300000, guid: 31f9b0dd56cd9494181cde0b1928e2e5, type: 3}
   S1A5APlayer: {fileID: 8300000, guid: 9d4c60cd876344586bc1759fcbb89de2, type: 3}
   S1A5BPlayer: {fileID: 8300000, guid: 8766b47daeb884c31afc61df375f0d81, type: 3}
   S1A5CPlayer: {fileID: 8300000, guid: 375c542220e3d446bb046ed804804d8a, type: 3}
-  S1Q6Tayla: {fileID: 8300000, guid: 8d5d2741384cc491daa9da4df5f15832, type: 3}
+  S1Q6Tayla: {fileID: 8300000, guid: b9bf64a50ab7f49cc9457fd825346682, type: 3}
   S1A6APlayer: {fileID: 8300000, guid: 350dd99f1991942128e7f167e96dc987, type: 3}
   S1A6BPlayer: {fileID: 8300000, guid: 350dd99f1991942128e7f167e96dc987, type: 3}
   S1A6CPlayer: {fileID: 8300000, guid: 80a0e08ba966d45a4b8a8d6e7e7b62fc, type: 3}
-  S1Q7Tayla: {fileID: 0}
+  S1Q7Tayla: {fileID: 8300000, guid: e26a0a2b41ab849e3a6a6655508d26a4, type: 3}
   S1A7APlayer: {fileID: 0}
   S1A7BPlayer: {fileID: 0}
   S1A7CPlayer: {fileID: 0}
@@ -17103,6 +17105,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1638194937}
+        m_TargetAssemblyTypeName: GameplayManager, Assembly-CSharp
+        m_MethodName: SecondExtra
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1642833789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17723,6 +17737,8 @@ MonoBehaviour:
   Score: {fileID: 1237787421}
   TextContainer: {fileID: 113985984}
   Scenario1: {fileID: 1604444684}
+  ExtraPanel: {fileID: 0}
+  ExtraPanel2: {fileID: 0}
   Scenario1Question1Box: {fileID: 467454372}
   Scenario1Answer1Box: {fileID: 1783265002}
   Scenario1Answer1ASelected: {fileID: 928597190}

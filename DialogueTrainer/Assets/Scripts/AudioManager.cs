@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip Scenario1;
 
     public AudioClip StartExtra;
+    public AudioClip ExtraPanel2;
 
     public AudioClip S1Q1Tayla;
     public AudioClip S1A1APlayer;

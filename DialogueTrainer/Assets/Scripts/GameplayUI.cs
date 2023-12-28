@@ -18,6 +18,7 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1;
 
     public GameObject ExtraPanel;
+    public GameObject ExtraPanel2;
 
     public GameObject Scenario1Question1Box;
     public GameObject Scenario1Answer1Box;
