@@ -584,7 +584,7 @@ public class GameplayManager : MonoBehaviour
         //TaylaCam.SetActive(true);
         //PlayerCam.SetActive(false);
         currentQuestion++;
-        Invoke("LoadNextQuestion", 0f);
+        Invoke("LoadNextQuestion", 3f);
     }
     void LoadNextQuestion()
     {

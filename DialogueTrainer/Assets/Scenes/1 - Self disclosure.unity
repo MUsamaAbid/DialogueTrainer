@@ -1088,12 +1088,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1982074966}
-  m_Father: {fileID: 460254086}
+  m_Father: {fileID: 872078246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 23.618286, y: 16.095215}
+  m_SizeDelta: {x: -220.4366, y: -188.2464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113985986
 MonoBehaviour:
@@ -4877,7 +4877,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 113985985}
+  - {fileID: 872078246}
   - {fileID: 1604444685}
   - {fileID: 1740482925}
   - {fileID: 2121174382}
@@ -5570,8 +5570,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1793.1564, y: 2714.1978}
+  m_AnchoredPosition: {x: 0, y: -0.000091552734}
+  m_SizeDelta: {x: 1586.8647, y: 2992.0693}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -5595,7 +5595,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9273e13498a9c4bb198fb9de5f717f6b, type: 3}
-    m_FontSize: 45
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -5605,7 +5605,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.25
   m_Text: "\nLearning outcomes\nDefine self-disclosure\nUnderstand the use of self-disclosure
     in interpersonal relationships.\nDemonstrate the importance of self-disclosure
     in communication.\nUnderstand the risk of self-disclosure\nHow to use self-disclosure
@@ -10003,6 +10003,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850068912}
+  m_CullTransparentMesh: 1
+--- !u!1 &872078245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872078246}
+  - component: {fileID: 872078248}
+  - component: {fileID: 872078247}
+  m_Layer: 5
+  m_Name: Text container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &872078246
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872078245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 113985985}
+  m_Father: {fileID: 460254086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &872078247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872078245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &872078248
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872078245}
   m_CullTransparentMesh: 1
 --- !u!1 &878436757
 GameObject:
@@ -18712,81 +18788,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: {fileID: 1237787421}
-  TextContainer: {fileID: 113985984}
+  TextContainer: {fileID: 872078245}
   Scenario1: {fileID: 1604444684}
   ExtraPanel: {fileID: 0}
   ExtraPanel2: {fileID: 0}
   Scenario1Question1Box: {fileID: 467454372}
   Scenario1Answer1Box: {fileID: 1783265002}
   Scenario1Answer1ASelected: {fileID: 928597190}
-  Scenario1Answer1ACorrectSelected: {fileID: 928597190}
+  Scenario1Answer1ACorrectSelected: {fileID: 636178373}
   Scenario1Answer1BSelected: {fileID: 1912827573}
-  Scenario1Answer1BCorrectSelected: {fileID: 1912827573}
+  Scenario1Answer1BCorrectSelected: {fileID: 565128334}
   Scenario1Answer1CSelected: {fileID: 513450404}
-  Scenario1Answer1CCorrectSelected: {fileID: 513450404}
+  Scenario1Answer1CCorrectSelected: {fileID: 1955067685}
   Scenario1Answer1NextButton: {fileID: 125117353}
   Scenario1Question2Box: {fileID: 814354623}
   Scenario1Answer2Box: {fileID: 1496377260}
   Scenario1Answer2ASelected: {fileID: 1819693858}
-  Scenario1Answer2ACorrectSelected: {fileID: 1819693858}
+  Scenario1Answer2ACorrectSelected: {fileID: 138788303}
   Scenario1Answer2BSelected: {fileID: 2135821562}
-  Scenario1Answer2BCorrectSelected: {fileID: 2135821562}
+  Scenario1Answer2BCorrectSelected: {fileID: 2008969177}
   Scenario1Answer2CSelected: {fileID: 1486640905}
-  Scenario1Answer2CCorrectSelected: {fileID: 1486640905}
+  Scenario1Answer2CCorrectSelected: {fileID: 1023221763}
   Scenario1Answer2NextButton: {fileID: 651884572}
   Scenario1Question3Box: {fileID: 1911090534}
   Scenario1Answer3Box: {fileID: 1152073436}
   Scenario1Answer3ASelected: {fileID: 644448643}
-  Scenario1Answer3ACorrectSelected: {fileID: 644448643}
+  Scenario1Answer3ACorrectSelected: {fileID: 1247206663}
   Scenario1Answer3BSelected: {fileID: 2084107730}
-  Scenario1Answer3BCorrectSelected: {fileID: 2084107730}
+  Scenario1Answer3BCorrectSelected: {fileID: 1468338233}
   Scenario1Answer3CSelected: {fileID: 1178790290}
-  Scenario1Answer3CCorrectSelected: {fileID: 1178790290}
+  Scenario1Answer3CCorrectSelected: {fileID: 138962949}
   Scenario1Answer3NextButton: {fileID: 878436757}
   Scenario1Question4Box: {fileID: 1575573843}
   Scenario1Answer4Box: {fileID: 1407969241}
   Scenario1Answer4ASelected: {fileID: 1404608637}
-  Scenario1Answer4ACorrectSelected: {fileID: 1404608637}
+  Scenario1Answer4ACorrectSelected: {fileID: 1716650487}
   Scenario1Answer4BSelected: {fileID: 112633104}
-  Scenario1Answer4BCorrectSelected: {fileID: 112633104}
+  Scenario1Answer4BCorrectSelected: {fileID: 415277527}
   Scenario1Answer4CSelected: {fileID: 646917447}
-  Scenario1Answer4CCorrectSelected: {fileID: 646917447}
+  Scenario1Answer4CCorrectSelected: {fileID: 466131806}
   Scenario1Answer4NextButton: {fileID: 1853604766}
   Scenario1Question5Box: {fileID: 1542526870}
   Scenario1Answer5Box: {fileID: 1764476296}
   Scenario1Answer5ASelected: {fileID: 1132388572}
-  Scenario1Answer5ACorrectSelected: {fileID: 1132388572}
+  Scenario1Answer5ACorrectSelected: {fileID: 79517993}
   Scenario1Answer5BSelected: {fileID: 1444871027}
-  Scenario1Answer5BCorrectSelected: {fileID: 1444871027}
+  Scenario1Answer5BCorrectSelected: {fileID: 1096284023}
   Scenario1Answer5CSelected: {fileID: 599932205}
-  Scenario1Answer5CCorrectSelected: {fileID: 599932205}
+  Scenario1Answer5CCorrectSelected: {fileID: 1243165266}
   Scenario1Answer5NextButton: {fileID: 2050476021}
   Scenario1Question6Box: {fileID: 590881365}
   Scenario1Answer6Box: {fileID: 1990181611}
   Scenario1Answer6ASelected: {fileID: 571577168}
-  Scenario1Answer6ACorrectSelected: {fileID: 571577168}
+  Scenario1Answer6ACorrectSelected: {fileID: 1554544728}
   Scenario1Answer6BSelected: {fileID: 893182618}
-  Scenario1Answer6BCorrectSelected: {fileID: 893182618}
+  Scenario1Answer6BCorrectSelected: {fileID: 1713664365}
   Scenario1Answer6CSelected: {fileID: 430016583}
-  Scenario1Answer6CCorrectSelected: {fileID: 430016583}
+  Scenario1Answer6CCorrectSelected: {fileID: 2018406767}
   Scenario1Answer6NextButton: {fileID: 1392238847}
   Scenario1Question7Box: {fileID: 263858903}
   Scenario1Answer7Box: {fileID: 706883038}
   Scenario1Answer7ASelected: {fileID: 247053563}
-  Scenario1Answer7ACorrectSelected: {fileID: 247053563}
+  Scenario1Answer7ACorrectSelected: {fileID: 936652409}
   Scenario1Answer7BSelected: {fileID: 1726178765}
-  Scenario1Answer7BCorrectSelected: {fileID: 1726178765}
+  Scenario1Answer7BCorrectSelected: {fileID: 1605149506}
   Scenario1Answer7CSelected: {fileID: 795644839}
-  Scenario1Answer7CCorrectSelected: {fileID: 795644839}
+  Scenario1Answer7CCorrectSelected: {fileID: 1101786080}
   Scenario1Answer7NextButton: {fileID: 1621375264}
   Scenario1Question8Box: {fileID: 1230847999}
   Scenario1Answer8Box: {fileID: 1133387796}
   Scenario1Answer8ASelected: {fileID: 1379195241}
-  Scenario1Answer8ACorrectSelected: {fileID: 1379195241}
+  Scenario1Answer8ACorrectSelected: {fileID: 2134252656}
   Scenario1Answer8BSelected: {fileID: 2077295352}
-  Scenario1Answer8BCorrectSelected: {fileID: 2077295352}
+  Scenario1Answer8BCorrectSelected: {fileID: 1579603672}
   Scenario1Answer8CSelected: {fileID: 2059122223}
-  Scenario1Answer8CCorrectSelected: {fileID: 2059122223}
+  Scenario1Answer8CCorrectSelected: {fileID: 122894686}
   Scenario1Answer8NextButton: {fileID: 1461102371}
   Scenario1Question9Box: {fileID: 850068912}
   Scenario1Answer9Box: {fileID: 0}
@@ -18960,7 +19036,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.39790764
+  m_Size: 0.29803908
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -22544,15 +22620,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Actual scenario (simulation \u2013 background is healthcare setting, Sheila
-    asking the Charge nurse for a meeting and knocking on the door to enter the office)
-    Every red denotes a wrong response.\nSheila has been working as an RN for seven
-    years and, in the last 5 years, has completed an MSN and MSc in Occupational
-    Health. She has applied in the last 6 months for two promotions, one as a Clinical
-    Educator and the other as a Health and Safety Manager, hoping to move to a day
-    job with an increased salary. Sheila has yet to be successful in both interviews.
-    Sheila is frustrated and has asked to meet with you, a senior charge nurse as
-    you have been in both interviews. "
+  m_Text: 'Sheila has been working as an RN for seven years and, in the last 5 years,
+    has completed an MSN and MSc in Occupational Health. She has applied in the last
+    6 months for two promotions, one as a Clinical Educator and the other as a Health
+    and Safety Manager, hoping to move to a day job with an increased salary. Sheila
+    has yet to be successful in both interviews. Sheila is frustrated and has asked
+    to meet with you, a senior charge nurse as you have been in both interviews. '
 --- !u!222 &1985788336
 CanvasRenderer:
   m_ObjectHideFlags: 0
