@@ -73,29 +73,41 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Question6Box;
     public GameObject Scenario1Answer6Box;
     public GameObject Scenario1Answer6ASelected;
+    public GameObject Scenario1Answer6ACorrectSelected;
     public GameObject Scenario1Answer6BSelected;
+    public GameObject Scenario1Answer6BCorrectSelected;
     public GameObject Scenario1Answer6CSelected;
+    public GameObject Scenario1Answer6CCorrectSelected;
     public GameObject Scenario1Answer6NextButton;
 
     public GameObject Scenario1Question7Box;
     public GameObject Scenario1Answer7Box;
     public GameObject Scenario1Answer7ASelected;
+    public GameObject Scenario1Answer7ACorrectSelected;
     public GameObject Scenario1Answer7BSelected;
+    public GameObject Scenario1Answer7BCorrectSelected;
     public GameObject Scenario1Answer7CSelected;
+    public GameObject Scenario1Answer7CCorrectSelected;
     public GameObject Scenario1Answer7NextButton;
 
     public GameObject Scenario1Question8Box;
     public GameObject Scenario1Answer8Box;
     public GameObject Scenario1Answer8ASelected;
+    public GameObject Scenario1Answer8ACorrectSelected;
     public GameObject Scenario1Answer8BSelected;
+    public GameObject Scenario1Answer8BCorrectSelected;
     public GameObject Scenario1Answer8CSelected;
+    public GameObject Scenario1Answer8CCorrectSelected;
     public GameObject Scenario1Answer8NextButton;
 
     public GameObject Scenario1Question9Box;
     public GameObject Scenario1Answer9Box;
     public GameObject Scenario1Answer9ASelected;
+    public GameObject Scenario1Answer9ACorrectSelected;
     public GameObject Scenario1Answer9BSelected;
+    public GameObject Scenario1Answer9BCorrectSelected;
     public GameObject Scenario1Answer9CSelected;
+    public GameObject Scenario1Answer9CCorrectSelected;
     public GameObject Scenario1Answer9NextButton;
 
     public void TurnOffExtraPanel()
