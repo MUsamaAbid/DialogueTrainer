@@ -446,4 +446,87 @@ public class GameplayUI : MonoBehaviour
     {
         Score.text = "Score: " + s.ToString();
     }
+    public void TurnCorrectAnswerColors(bool b)
+    {
+        if (Scenario1Answer1ACorrectSelected)
+            Scenario1Answer1ACorrectSelected.SetActive(b);
+
+        if(Scenario1Answer1BCorrectSelected)
+            Scenario1Answer1BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer1CCorrectSelected)
+            Scenario1Answer1CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer2ACorrectSelected)
+            Scenario1Answer2ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer2BCorrectSelected)
+            Scenario1Answer2BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer2CCorrectSelected)
+            Scenario1Answer2CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer3ACorrectSelected)
+            Scenario1Answer3ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer3BCorrectSelected)
+            Scenario1Answer3BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer3CCorrectSelected)
+            Scenario1Answer3CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer4ACorrectSelected)
+            Scenario1Answer4ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer4BCorrectSelected)
+            Scenario1Answer4BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer4CCorrectSelected)
+            Scenario1Answer4CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer5ACorrectSelected)
+            Scenario1Answer5ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer5BCorrectSelected)
+            Scenario1Answer5BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer5CCorrectSelected)
+            Scenario1Answer5CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer6ACorrectSelected)
+            Scenario1Answer6ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer6BCorrectSelected)
+            Scenario1Answer6BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer6CCorrectSelected)
+            Scenario1Answer6CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer7ACorrectSelected)
+            Scenario1Answer7ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer7BCorrectSelected)
+            Scenario1Answer7BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer7CCorrectSelected)
+            Scenario1Answer7CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer8ACorrectSelected)
+            Scenario1Answer8ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer8BCorrectSelected)
+            Scenario1Answer8BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer8CCorrectSelected)
+            Scenario1Answer8CCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer9ACorrectSelected)
+            Scenario1Answer9ACorrectSelected.SetActive(b);
+
+        if (Scenario1Answer9BCorrectSelected)
+            Scenario1Answer9BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer9CCorrectSelected)
+            Scenario1Answer9CCorrectSelected.SetActive(b);
+    }
 }

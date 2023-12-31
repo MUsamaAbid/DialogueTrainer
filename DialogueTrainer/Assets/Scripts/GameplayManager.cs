@@ -557,15 +557,8 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1CheckForAnswer()
     {
-        //GameplayUI.Instance.TurnQuestion1UIOff();
-        //GameplayUI.Instance.TurnQuestion2UIOff();
-        //GameplayUI.Instance.TurnQuestion3UIOff();
-        //GameplayUI.Instance.TurnQuestion4UIOff();
-        //GameplayUI.Instance.TurnQuestion5UIOff();
-        //GameplayUI.Instance.TurnQuestion6UIOff();
-        //GameplayUI.Instance.TurnQuestion7UIOff();
-        //GameplayUI.Instance.TurnQuestion8UIOff();
-        //GameplayUI.Instance.TurnQuestion9UIOff();
+        GameplayUI.Instance.TurnCorrectAnswerColors(true);
+
         optionSelected = true;
         AudioManager.Instance.StopSound();
         if (currentAnswer == Scenario1CorrectAnswers[currentQuestion])
@@ -597,6 +590,8 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.TurnQuestion7UIOff();
         GameplayUI.Instance.TurnQuestion8UIOff();
         GameplayUI.Instance.TurnQuestion9UIOff();
+
+        GameplayUI.Instance.TurnCorrectAnswerColors(false);
 
         optionSelected = false;
 
