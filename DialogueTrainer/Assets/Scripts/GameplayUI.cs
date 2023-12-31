@@ -23,36 +23,51 @@ public class GameplayUI : MonoBehaviour
     public GameObject Scenario1Question1Box;
     public GameObject Scenario1Answer1Box;
     public GameObject Scenario1Answer1ASelected;
+    public GameObject Scenario1Answer1ACorrectSelected;
     public GameObject Scenario1Answer1BSelected;
+    public GameObject Scenario1Answer1BCorrectSelected;
     public GameObject Scenario1Answer1CSelected;
+    public GameObject Scenario1Answer1CCorrectSelected;
     public GameObject Scenario1Answer1NextButton;
 
     public GameObject Scenario1Question2Box;
     public GameObject Scenario1Answer2Box;
     public GameObject Scenario1Answer2ASelected;
+    public GameObject Scenario1Answer2ACorrectSelected;
     public GameObject Scenario1Answer2BSelected;
+    public GameObject Scenario1Answer2BCorrectSelected;
     public GameObject Scenario1Answer2CSelected;
+    public GameObject Scenario1Answer2CCorrectSelected;
     public GameObject Scenario1Answer2NextButton;
 
     public GameObject Scenario1Question3Box;
     public GameObject Scenario1Answer3Box;
     public GameObject Scenario1Answer3ASelected;
+    public GameObject Scenario1Answer3ACorrectSelected;
     public GameObject Scenario1Answer3BSelected;
+    public GameObject Scenario1Answer3BCorrectSelected;
     public GameObject Scenario1Answer3CSelected;
+    public GameObject Scenario1Answer3CCorrectSelected;
     public GameObject Scenario1Answer3NextButton;
 
     public GameObject Scenario1Question4Box;
     public GameObject Scenario1Answer4Box;
     public GameObject Scenario1Answer4ASelected;
+    public GameObject Scenario1Answer4ACorrectSelected;
     public GameObject Scenario1Answer4BSelected;
+    public GameObject Scenario1Answer4BCorrectSelected;
     public GameObject Scenario1Answer4CSelected;
+    public GameObject Scenario1Answer4CCorrectSelected;
     public GameObject Scenario1Answer4NextButton;
 
     public GameObject Scenario1Question5Box;
     public GameObject Scenario1Answer5Box;
     public GameObject Scenario1Answer5ASelected;
+    public GameObject Scenario1Answer5ACorrectSelected;
     public GameObject Scenario1Answer5BSelected;
+    public GameObject Scenario1Answer5BCorrectSelected;
     public GameObject Scenario1Answer5CSelected;
+    public GameObject Scenario1Answer5CCorrectSelected;
     public GameObject Scenario1Answer5NextButton;
 
     public GameObject Scenario1Question6Box;
