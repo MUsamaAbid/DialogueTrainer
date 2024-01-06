@@ -12,6 +12,8 @@ public class GameplayUI : MonoBehaviour
         Instance = this;
     }
     #endregion
+
+    public GameObject SummaryScreen;
     public Text Score;
 
     public GameObject TextContainer;

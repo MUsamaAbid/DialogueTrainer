@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameplayManager : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class GameplayManager : MonoBehaviour
     public GameObject Tayla;
     public GameObject Player;
 
-    [SerializeField] int NumberOfQuestions;
+    [SerializeField] public int NumberOfQuestions;
 
     public int[] Scenario1CorrectAnswers;
     int currentQuestion = 0;
@@ -565,7 +566,7 @@ public class GameplayManager : MonoBehaviour
         {
             Debug.Log("Correct Answer");
             Tayla.GetComponent<Animator>().SetTrigger("Happy");
-            ScoreManager.Instance.AddScore(20);
+            ScoreManager.Instance.AddScore(1);
         }
         else
         {
@@ -577,7 +578,7 @@ public class GameplayManager : MonoBehaviour
         //TaylaCam.SetActive(true);
         //PlayerCam.SetActive(false);
         currentQuestion++;
-        Invoke("LoadNextQuestion", 3f);
+        Invoke("LoadNextQuestion", 0f);
     }
     void LoadNextQuestion()
     {
@@ -632,5 +633,28 @@ public class GameplayManager : MonoBehaviour
         {
             Debug.Log("Game ended");
         }
+    }
+    public void EndGame()
+    {
+        ScoreManager.Instance.CalculateResults();
+        GameplayUI.Instance.SummaryScreen.SetActive(true);
+    }
+    public void EndGameMinusOne()
+    {
+        ScoreManager.Instance.CalculateResultsMinusOne();
+        GameplayUI.Instance.SummaryScreen.SetActive(true);
+    }
+    public void LoadScene(int sceneNumber)
+    {
+        SceneManager.LoadScene(sceneNumber);
+    }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        AudioManager.Instance.StopSound();
+    }
+    public void Resume()
+    {
+        Time.timeScale = 1;
     }
 }

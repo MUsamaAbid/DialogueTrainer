@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DisableAfterEnable : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class DisableAfterEnable : MonoBehaviour
     private void OnEnable()
     {
         Invoke("DisableGameobject", DisableAfter);
+    }
+    private void Awake()
+    {
+        Invoke("DisableGameobject", DisableAfter);
+        Debug.Log("Awake called");
     }
     void DisableGameobject()
     {
