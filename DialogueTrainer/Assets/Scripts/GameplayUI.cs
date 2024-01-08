@@ -121,12 +121,16 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer1ASelected)
                 Scenario1Answer1ASelected.SetActive(true);
+                if(Scenario1Answer1BSelected)
                 Scenario1Answer1BSelected.SetActive(false);
+                if(Scenario1Answer1CSelected)
                 Scenario1Answer1CSelected.SetActive(false);
                 Scenario1Answer1NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer1ASelected)
                 Scenario1Answer1ASelected.SetActive(false);
                 Scenario1Answer1BSelected.SetActive(true);
                 Scenario1Answer1CSelected.SetActive(false);

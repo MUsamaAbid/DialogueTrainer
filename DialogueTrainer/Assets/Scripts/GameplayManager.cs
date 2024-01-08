@@ -65,14 +65,13 @@ public class GameplayManager : MonoBehaviour
     public void Scenario1NextButtonPressed()
     {
         GameplayUI.Instance.Scenario1.SetActive(false);
-        AudioManager.Instance.StopSound();         if(AudioCoroutine != null)         {             StopCoroutine(AudioCoroutine);         }
 
         Scenario1Question1();
     }
 
     void Scenario1Question1()
     {
-        AudioManager.Instance.StopSound();         if(AudioCoroutine != null)         {             StopCoroutine(AudioCoroutine);         }
+        AudioManager.Instance.StopSound(); 
 
         GameplayUI.Instance.Scenario1Question1Box.SetActive(true);
         AudioManager.Instance.PlaySound(AudioManager.Instance.S1Q1Tayla);
@@ -628,7 +627,7 @@ public class GameplayManager : MonoBehaviour
         //TaylaCam.SetActive(true);
         //PlayerCam.SetActive(false);
         currentQuestion++;
-        Invoke("LoadNextQuestion", 3f);
+        Invoke("LoadNextQuestion", 1f);
     }
     void LoadNextQuestion()
     {

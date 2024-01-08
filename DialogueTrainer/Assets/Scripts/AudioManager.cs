@@ -95,6 +95,7 @@ public class AudioManager : MonoBehaviour
     // Play a sound with the given AudioClip
     public void PlaySound(AudioClip clip)
     {
+        if(clip != null)
         audioSource.PlayOneShot(clip);
     }
     //Stop any playing sound

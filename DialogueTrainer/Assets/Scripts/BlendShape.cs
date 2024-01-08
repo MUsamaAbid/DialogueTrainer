@@ -118,7 +118,7 @@ public class BlendShape : MonoBehaviour
     }
     IEnumerator ValueSelectedToFalse()
     {
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.15f);
         valueSelected = false;
         coroutineCalled = false;
         Debug.Log("value to false");
