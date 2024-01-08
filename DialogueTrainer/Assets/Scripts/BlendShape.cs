@@ -20,10 +20,11 @@ public class BlendShape : MonoBehaviour
     bool smile;
     bool idle;
     bool sad;
-    private void Start()
-    {
-        //Talking();
-    }
+
+    bool valueSelected;
+    float randomT;
+    bool coroutineCalled;
+
     public void Talking()
     {
         idle = false;
@@ -60,14 +61,26 @@ public class BlendShape : MonoBehaviour
             // Calculate the t value using a sine wave for smooth oscillation
             //float t = 0.5f + 0.5f * Mathf.Sin(Time.time * lerpSpeed);
 
-            float randomT = Random.value;
-            // Use Lerp to interpolate between 0 and 1
+            if (!valueSelected)
+            {
+                randomT = Random.value;
+                valueSelected = true;
+                Debug.Log("value true: ");
+
+            }            // Use Lerp to interpolate between 0 and 1
             //float lerpedValue = Mathf.Lerp(0f, 0.75f, t);
             float lerpedValue = Mathf.Lerp(0f, 0.75f, randomT);
 
             // Print the result or use it in any other way
             meshRenderer.SetBlendShapeWeight(0, lerpedValue);
-
+            //Debug.Log("value : " + randomT * 0.75f);
+            //Debug.Log("Blendshapre : " + meshRenderer.GetBlendShapeWeight(0));
+            if (Mathf.Abs(randomT * 0.75f - meshRenderer.GetBlendShapeWeight(0)) < 0.001f && !coroutineCalled)
+            {
+                coroutineCalled = true;
+                StartCoroutine(ValueSelectedToFalse());
+            }
+            
             float smile = Mathf.Lerp(meshRenderer.GetBlendShapeWeight(1), 0.5f, 1);
 
             meshRenderer.SetBlendShapeWeight(1, smile);
@@ -102,5 +115,12 @@ public class BlendShape : MonoBehaviour
 
             meshRenderer.SetBlendShapeWeight(1, smile);
         }
+    }
+    IEnumerator ValueSelectedToFalse()
+    {
+        yield return new WaitForSeconds(0.05f);
+        valueSelected = false;
+        coroutineCalled = false;
+        Debug.Log("value to false");
     }
 }
