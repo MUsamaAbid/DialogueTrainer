@@ -3700,7 +3700,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1625.0463, y: 3696.626}
+  m_SizeDelta: {x: 1625.0463, y: 3924.478}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -3740,7 +3740,7 @@ MonoBehaviour:
     do assertive behaviors/characteristics look like\n\nAssertiveness is expressing
     a point of view clearly and directly while respecting others. Assertive communication
     minimizes conflict, controls anger, better meets an individual needs, and has
-    more positive relationships with others. \n\tTypes of communication styles\n\tAssertive
+    more positive relationships with others. \n\nTypes of communication styles\nAssertive
     communication- Recommended and most effective communication style. \"I\" statements
     are the hallmark of using this communication.\nPassive communication- avoiding
     saying what one thinks and feels. Passive communicators avoid their needs, prefer
@@ -3754,7 +3754,7 @@ MonoBehaviour:
     own. \nManipulative communication- is a pattern of using cunning tactics, deceit,
     and influence to control the outcome of the conversation and, thus, the actions
     of the people around them. Manipulative tactics such as gaslighting, lying, blaming,
-    criticizing, and shaming can damage a person's well-being.\nBenefits of assertive
+    criticizing, and shaming can damage a person's well-being.\n\nBenefits of assertive
     communication\nReduce stress and anxiety: Reduce tensions internally and with
     others.\nIncrease self-esteem and credibility: Assertiveness is a form of self-affirmation.
     When one freely expresses what they think and feel, self-love increases.\nIncreased
@@ -3767,12 +3767,12 @@ MonoBehaviour:
     there is less chance of conflict when one is clear and frank but at the same
     time respectful. Assertiveness promotes mutual respect and thus builds healthier
     relationships. Increase empowerment, better decision-making capacity, and job
-    satisfaction. \nRisks of assertive communication\nRisk of not listening to others\nIt
-    may appear too arrogant\nIt can reflect over-confidence\nAssertive behaviors/characteristics\nAn
-    assertive person is emotionally honest, self-aware, direct, self-enhancing, and
-    expressive. They use direct eye contact, assertive stance, and the four rules
-    of assertiveness. 1) here is what happened; 2) here's how I feel about it;3)
-    here's why I feel that way, so 4) here's what I want."
+    satisfaction. \n\nRisks of assertive communication\nRisk of not listening to
+    others\nIt may appear too arrogant\nIt can reflect over-confidence\n\nAssertive
+    behaviors/characteristics\nAn assertive person is emotionally honest, self-aware,
+    direct, self-enhancing, and expressive. They use direct eye contact, assertive
+    stance, and the four rules of assertiveness. 1) here is what happened; 2) here's
+    how I feel about it;3) here's why I feel that way, so 4) here's what I want."
 --- !u!222 &516832933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14166,7 +14166,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9273e13498a9c4bb198fb9de5f717f6b, type: 3}
-    m_FontSize: 40
+    m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -14270,7 +14270,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 0.99999994
-  m_Size: 0.25408748
+  m_Size: 0.23933537
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

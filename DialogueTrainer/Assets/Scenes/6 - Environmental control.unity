@@ -5725,7 +5725,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1624.9181, y: 1744.3086}
+  m_SizeDelta: {x: 1624.9181, y: 1889.2158}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -5765,14 +5765,14 @@ MonoBehaviour:
     the environment means demonstrating one\u2019s ability to achieve pre-determined
     goals and satisfy needs. It involves handling conflict settings, solving problems
     in a cooperative atmosphere ( as in a win-win negotiation), and gaining compliance
-    from others. \nWhat is effective communication?\nEffective communication is an
-    open dialogue in which everyone leaves with a shared mental model. It is the
+    from others. \n\nWhat is effective communication?\nEffective communication is
+    an open dialogue in which everyone leaves with a shared mental model. It is the
     process of exchanging ideas, thoughts, opinions, knowledge, and data to receive
     and understand the message with clarity and purpose. When communication is effective,
     both the sender and receiver feel satisfied. For communication to be effective,
     it must be clear, correct, complete, concise and compassionate, and these are
     the 5Cs of communication. While the effectiveness of communication is difficult
-    to measure, its impact is hard to deny. \nReasons for measuring communication
+    to measure, its impact is hard to deny. \n\nReasons for measuring communication
     effectiveness\nThe benefits of communication effectiveness can be witnessed in
     all areas of life. In the workplace, effective communication can help manage
     employees and build teams, grow an organization more rapidly and retain employees,
@@ -19276,7 +19276,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 0.99999994
-  m_Size: 0.517284
+  m_Size: 0.4776071
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

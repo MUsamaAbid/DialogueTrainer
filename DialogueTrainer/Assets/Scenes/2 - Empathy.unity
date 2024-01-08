@@ -5209,7 +5209,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1639.5172, y: 3426.9907}
+  m_SizeDelta: {x: 1639.5172, y: 3596.0425}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -5254,17 +5254,17 @@ MonoBehaviour:
     person's emotions and responding appropriately.\nSomatic empathy involves a physical
     reaction to what someone else is experiencing. People sometimes physically experience
     what another person is feeling.\nCognitive empathy involves understanding another
-    person's mental state and thoughts in response to a situation. \nThere are benefits
-    to experiencing empathy.\nEmpathy allows you to build social connections with
-    others.\nEmpathizing with others helps you learn to regulate your own emotions.\nEmpathy
+    person's mental state and thoughts in response to a situation. \n\nThere are
+    benefits to experiencing empathy.\nEmpathy allows you to build social connections
+    with others.\nEmpathizing with others helps you learn to regulate your own emotions.\nEmpathy
     promotes helping behaviors.\nIncrease the ability to forgive and to have less
-    conflict.\nPitfalls of empathy\nAn individual can sometimes get overwhelmed,
+    conflict.\n\nPitfalls of empathy\nAn individual can sometimes get overwhelmed,
     burned out, or even overstimulated from constantly thinking about other people's
     emotions, leading to empathy fatigue.\nHigher levels of empathy can lead to emotional
     negativity, potentially increasing the risk of empathetic distress, which affects
     one's judgment.\n\nWhy is empathy important?\nEmpathy helps one better understand
     how others feel and even feel it in ourselves. It helps maintain relationships
-    and plays a role in dictating success in personal and professional relationships.\nTips
+    and plays a role in dictating success in personal and professional relationships.\n\nTips
     for practicing empathy\nWork on listening to people without interrupting\nPay
     attention to body language and other types of nonverbal communication\nTry to
     understand people, even when you disagree with them\nAsk people questions to
@@ -17192,7 +17192,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 0.99999994
-  m_Size: 0.27010068
+  m_Size: 0.25740314
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

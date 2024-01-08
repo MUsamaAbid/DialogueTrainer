@@ -3149,7 +3149,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: We had candidates with experience and skills you did not demonstrate you 
-    possess
+    possess.
 --- !u!222 &251563757
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5574,7 +5574,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 1586.8647, y: 2992.0693}
+  m_SizeDelta: {x: 1586.8647, y: 3244.0518}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -5614,7 +5614,7 @@ MonoBehaviour:
     in communication.\nUnderstand the risk of self-disclosure\nHow to use self-disclosure
     in the workplace\n\nSelf-disclosure is defined as passing on information about
     yourself to someone else that that individual does not readily know, whether
-    you intend to or not. \nThe use of self-disclosure in interpersonal relationships\nThe
+    you intend to or not. \n\nThe use of self-disclosure in interpersonal relationships\nThe
     process of self-disclosure is circular. A person self-discloses, the recipient
     of the disclosures reacts, and the original discloser processes the reaction.
     The key elements of the process are how the receiver interprets and responds
@@ -5623,14 +5623,14 @@ MonoBehaviour:
     attribution. Dispositional connects the cause of the disclosure to the personality,
     situational identifies the cause of a disclosure with the context or surroundings
     in which it takes place, and interpersonal identifies the relationship between
-    sender and receiver as the cause of the disclosure. \nThe importance of self-disclosure
+    sender and receiver as the cause of the disclosure. \n\nThe importance of self-disclosure
     in communication\nSelf-disclosure brings benefits to communication if done appropriately.
     It results in higher relationship quality, brings a sense of being needed by
     another, emotionally connects you to another person, builds a stronger commitment
     to the relationship, develops trust, and increases empathy levels and understanding.
-    \nRisk of self-disclosure\nThere is the risk of rejection, negative impressions,
+    \n\nRisk of self-disclosure\nThere is the risk of rejection, negative impressions,
     decreased relational satisfaction, loss of influence, and the possibility of
-    hurting another person when an individual self-discloses. \nHow to use self-disclosure
+    hurting another person when an individual self-discloses. \n\nHow to use self-disclosure
     in the workplace\nThere are six ways to help one with self-disclosure\nWait and
     watch, especially if new in a role or in an unfamiliar environment, to see how
     much the other person shares.\nConsider your motives, and use self-disclosure
@@ -6453,7 +6453,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9273e13498a9c4bb198fb9de5f717f6b, type: 3}
-    m_FontSize: 35
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -16074,7 +16074,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9273e13498a9c4bb198fb9de5f717f6b, type: 3}
-    m_FontSize: 35
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -19035,7 +19035,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.29803908
+  m_Size: 0.27488884
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

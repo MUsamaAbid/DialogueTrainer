@@ -5614,7 +5614,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1738.6073, y: 2013.0454}
+  m_SizeDelta: {x: 1738.6073, y: 2144.1519}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -5651,27 +5651,27 @@ MonoBehaviour:
     m_LineSpacing: 1.25
   m_Text: "Supportiveness\nLearning outcomes\nDefine supportiveness.\nBenefits of
     supportiveness\nWhy is support so important to someone?\n\nSupportiveness is
-    defined as showing agreement and giving encouragement.\nBenefits\nSupportive
+    defined as showing agreement and giving encouragement.\n\nBenefits\nSupportive
     relationships offer:\nBetter health\nLonger lives\nHigher well-being\nImproving
     skills to cope with challenges\nAllow individuals to talk openly and honestly
     about one\u2019s feelings\nReduce distress, depression, anxiety, or fatigue.\nFeeling
-    less lonely, isolated, or judged.\nType of Support?\nInformational support provides
-    knowledge, advice, or resources that someone can use to address specific challenges
-    or decisions.\nEmotional support entails showing empathy, understanding, and
-    care. Listening and offering reassurance during times of distress are vital components\nFinancial
-    support involves providing monetary assistance, either directly as cash or indirectly,
-    such as helping pay bills or providing resources.\nPhysical support offers hands-on
-    help, such as assisting someone with mobility, providing a place to stay, or
-    aiding in daily tasks like cooking or cleaning.\nSocial support facilitates companionship
-    and a sense of belonging, including spending time together, attending events,
-    or simply being present during challenging times.\nSpiritual support caters to
-    an individual's spiritual or religious needs, possibly by praying together, discussing
-    philosophical beliefs, or attending religious services. \nPractical support is
-    similar to instrument support; this involves giving tangible assistance in day-to-day
-    tasks or challenges, like helping with paperwork, repairs, or organizing. \nRecognizing
-    the kind of support needed in different situations can significantly enhance
-    the quality of assistance provided, ensuring that individuals feel adequately
-    supported in all aspects of their lives. "
+    less lonely, isolated, or judged.\n\nType of Support?\nInformational support
+    provides knowledge, advice, or resources that someone can use to address specific
+    challenges or decisions.\nEmotional support entails showing empathy, understanding,
+    and care. Listening and offering reassurance during times of distress are vital
+    components\nFinancial support involves providing monetary assistance, either
+    directly as cash or indirectly, such as helping pay bills or providing resources.\nPhysical
+    support offers hands-on help, such as assisting someone with mobility, providing
+    a place to stay, or aiding in daily tasks like cooking or cleaning.\nSocial support
+    facilitates companionship and a sense of belonging, including spending time together,
+    attending events, or simply being present during challenging times.\nSpiritual
+    support caters to an individual's spiritual or religious needs, possibly by praying
+    together, discussing philosophical beliefs, or attending religious services.
+    \nPractical support is similar to instrument support; this involves giving tangible
+    assistance in day-to-day tasks or challenges, like helping with paperwork, repairs,
+    or organizing. \nRecognizing the kind of support needed in different situations
+    can significantly enhance the quality of assistance provided, ensuring that individuals
+    feel adequately supported in all aspects of their lives. "
 --- !u!222 &516832933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19466,7 +19466,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.49186894
+  m_Size: 0.4617931
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

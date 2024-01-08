@@ -4484,7 +4484,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1726.1, y: 2498.5947}
+  m_SizeDelta: {x: 1726.1, y: 2615.9004}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &516832932
 MonoBehaviour:
@@ -4524,18 +4524,18 @@ MonoBehaviour:
     management is a program designed to improve leadership skills in productivity,
     handling employee conflict, performance improvement, delegation, and overcoming
     resistance to change by teaching positive behavior and job application models.
-    \nWhy is interaction management critical?\nThe interaction management program
+    \n\nWhy is interaction management critical?\nThe interaction management program
     provides a step-by-step approach for handling each difficult interaction situation.
     Breaking problematic situations into critical steps gives the learner a reasonable
     and understandable strategy for accomplishing tasks. Interaction management is
     essential to businesses since they can track interactions to set benchmarks,
-    pinpoint customer engagement problems, and compare performance.\nWhat does interaction
-    management include?\nInteraction management is a program designed to improve
-    leadership skills in productivity, handling employee conflict, performance improvement,
-    delegation, and overcoming resistance to change by teaching positive behavior
-    models and on-the-job application. Interaction management is realized during
-    all the stages of the communication process, and its effectiveness depends on
-    the person's abilities to manage their specific interaction behaviors. Thus,
+    pinpoint customer engagement problems, and compare performance.\n\nWhat does
+    interaction management include?\nInteraction management is a program designed
+    to improve leadership skills in productivity, handling employee conflict, performance
+    improvement, delegation, and overcoming resistance to change by teaching positive
+    behavior models and on-the-job application. Interaction management is realized
+    during all the stages of the communication process, and its effectiveness depends
+    on the person's abilities to manage their specific interaction behaviors. Thus,
     interaction is based on the people\u2019s abilities to start a conversation effectively,
     to develop the topic, and to terminate a conversation with references to the
     interests of the persons participating in it. If the communication process develops
@@ -10923,7 +10923,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Our hospital policy states a 50% only remote work. You have been working
-    longer at home than the policy says
+    longer at home than the policy says.
 --- !u!222 &1221140981
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16042,8 +16042,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 793884021}
   m_HandleRect: {fileID: 793884020}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.36900052
+  m_Value: 1.0000001
+  m_Size: 0.3524533
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
