@@ -598,7 +598,7 @@ public class GameplayUI : MonoBehaviour
             Scenario1Answer8ASelected.SetActive(b);
 
         if (Scenario1Answer8BSelected)
-            Scenario1Answer8BCorrectSelected.SetActive(b);
+            Scenario1Answer8BSelected.SetActive(b);
 
         if (Scenario1Answer8CSelected)
             Scenario1Answer8CSelected.SetActive(b);
