@@ -213,6 +213,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer1Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -228,6 +229,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer2Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -243,6 +245,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer3Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -258,6 +261,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer4Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -272,6 +276,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer5Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -286,6 +291,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer6Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -300,6 +306,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer7Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -314,6 +321,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer8Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
@@ -328,6 +336,7 @@ public class GameplayManager : MonoBehaviour
         GameplayUI.Instance.Scenario1Answer9Box.SetActive(true);
 
         Tayla.GetComponent<Animator>().SetBool("Talk", false);
+        Tayla.GetComponent<Animator>().SetTrigger("Idle");
         BlendShape.Instance.Idle();
         isTalking = false;
 
