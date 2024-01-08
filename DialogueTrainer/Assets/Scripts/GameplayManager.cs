@@ -598,6 +598,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void Scenario1CheckForAnswer()
     {
+        GameplayUI.Instance.TurnAnswerSelected(false);
         GameplayUI.Instance.TurnCorrectAnswerColors(true);
 
         optionSelected = true;

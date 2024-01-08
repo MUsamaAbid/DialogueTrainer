@@ -448,6 +448,89 @@ public class GameplayUI : MonoBehaviour
     {
         Score.text = "Score: " + s.ToString();
     }
+    public void TurnAnswerSelected(bool b)
+    {
+        if (Scenario1Answer1ASelected)
+            Scenario1Answer1ASelected.SetActive(b);
+
+        if (Scenario1Answer1BSelected)
+            Scenario1Answer1BSelected.SetActive(b);
+
+        if (Scenario1Answer1CSelected)
+            Scenario1Answer1CSelected.SetActive(b);
+
+        if (Scenario1Answer2ASelected)
+            Scenario1Answer2ASelected.SetActive(b);
+
+        if (Scenario1Answer2BSelected)
+            Scenario1Answer2BSelected.SetActive(b);
+
+        if (Scenario1Answer2CSelected)
+            Scenario1Answer2CSelected.SetActive(b);
+
+        if (Scenario1Answer3ASelected)
+            Scenario1Answer3ASelected.SetActive(b);
+
+        if (Scenario1Answer3BSelected)
+            Scenario1Answer3BSelected.SetActive(b);
+
+        if (Scenario1Answer3CSelected)
+            Scenario1Answer3CSelected.SetActive(b);
+
+        if (Scenario1Answer4ASelected)
+            Scenario1Answer4ASelected.SetActive(b);
+
+        if (Scenario1Answer4BSelected)
+            Scenario1Answer4BSelected.SetActive(b);
+
+        if (Scenario1Answer4CSelected)
+            Scenario1Answer4CSelected.SetActive(b);
+
+        if (Scenario1Answer5ASelected)
+            Scenario1Answer5ASelected.SetActive(b);
+
+        if (Scenario1Answer5BSelected)
+            Scenario1Answer5BSelected.SetActive(b);
+
+        if (Scenario1Answer5CSelected)
+            Scenario1Answer5CSelected.SetActive(b);
+
+        if (Scenario1Answer6ASelected)
+            Scenario1Answer6ASelected.SetActive(b);
+
+        if (Scenario1Answer6BSelected)
+            Scenario1Answer6BSelected.SetActive(b);
+
+        if (Scenario1Answer6CSelected)
+            Scenario1Answer6CSelected.SetActive(b);
+
+        if (Scenario1Answer7ASelected)
+            Scenario1Answer7ASelected.SetActive(b);
+
+        if (Scenario1Answer7BSelected)
+            Scenario1Answer7BSelected.SetActive(b);
+
+        if (Scenario1Answer7CSelected)
+            Scenario1Answer7CSelected.SetActive(b);
+
+        if (Scenario1Answer8ASelected)
+            Scenario1Answer8ASelected.SetActive(b);
+
+        if (Scenario1Answer8BSelected)
+            Scenario1Answer8BCorrectSelected.SetActive(b);
+
+        if (Scenario1Answer8CSelected)
+            Scenario1Answer8CSelected.SetActive(b);
+
+        if (Scenario1Answer9ASelected)
+            Scenario1Answer9ASelected.SetActive(b);
+
+        if (Scenario1Answer9BSelected)
+            Scenario1Answer9BSelected.SetActive(b);
+
+        if (Scenario1Answer9CSelected)
+            Scenario1Answer9CSelected.SetActive(b);
+    }
     public void TurnCorrectAnswerColors(bool b)
     {
         if (Scenario1Answer1ACorrectSelected)
