@@ -132,13 +132,18 @@ public class GameplayUI : MonoBehaviour
             case 2:
                 if(Scenario1Answer1ASelected)
                 Scenario1Answer1ASelected.SetActive(false);
+                if(Scenario1Answer1BSelected)
                 Scenario1Answer1BSelected.SetActive(true);
+                if(Scenario1Answer1CSelected)
                 Scenario1Answer1CSelected.SetActive(false);
                 Scenario1Answer1NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer1ASelected)
                 Scenario1Answer1ASelected.SetActive(false);
+                if(Scenario1Answer1BSelected)
                 Scenario1Answer1BSelected.SetActive(false);
+                if(Scenario1Answer1CSelected)
                 Scenario1Answer1CSelected.SetActive(true);
                 Scenario1Answer1NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -159,20 +164,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer2ASelected)
                 Scenario1Answer2ASelected.SetActive(true);
+                if(Scenario1Answer2BSelected)
                 Scenario1Answer2BSelected.SetActive(false);
+                if(Scenario1Answer2CSelected)
                 Scenario1Answer2CSelected.SetActive(false);
                 Scenario1Answer2NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer2ASelected)
                 Scenario1Answer2ASelected.SetActive(false);
+                if(Scenario1Answer2BSelected)
                 Scenario1Answer2BSelected.SetActive(true);
+                if(Scenario1Answer2CSelected)
                 Scenario1Answer2CSelected.SetActive(false);
                 Scenario1Answer2NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer2ASelected)
                 Scenario1Answer2ASelected.SetActive(false);
+                if(Scenario1Answer2BSelected)
                 Scenario1Answer2BSelected.SetActive(false);
+                if(Scenario1Answer2CSelected)
                 Scenario1Answer2CSelected.SetActive(true);
                 Scenario1Answer2NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -193,20 +207,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer3ASelected)
                 Scenario1Answer3ASelected.SetActive(true);
+                if(Scenario1Answer3BSelected)
                 Scenario1Answer3BSelected.SetActive(false);
+                if(Scenario1Answer3CSelected)
                 Scenario1Answer3CSelected.SetActive(false);
                 Scenario1Answer3NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer3ASelected)
                 Scenario1Answer3ASelected.SetActive(false);
+                if(Scenario1Answer3BSelected)
                 Scenario1Answer3BSelected.SetActive(true);
+                if(Scenario1Answer3CSelected)
                 Scenario1Answer3CSelected.SetActive(false);
                 Scenario1Answer3NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer3ASelected)
                 Scenario1Answer3ASelected.SetActive(false);
+                if(Scenario1Answer3BSelected)
                 Scenario1Answer3BSelected.SetActive(false);
+                if(Scenario1Answer3CSelected)
                 Scenario1Answer3CSelected.SetActive(true);
                 Scenario1Answer3NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -227,20 +250,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer4ASelected)
                 Scenario1Answer4ASelected.SetActive(true);
+                if(Scenario1Answer4BSelected)
                 Scenario1Answer4BSelected.SetActive(false);
+                if(Scenario1Answer4CSelected)
                 Scenario1Answer4CSelected.SetActive(false);
                 Scenario1Answer4NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer4ASelected)
                 Scenario1Answer4ASelected.SetActive(false);
+                if(Scenario1Answer4BSelected)
                 Scenario1Answer4BSelected.SetActive(true);
+                if(Scenario1Answer4CSelected)
                 Scenario1Answer4CSelected.SetActive(false);
                 Scenario1Answer4NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer4ASelected)
                 Scenario1Answer4ASelected.SetActive(false);
+                if(Scenario1Answer4BSelected)
                 Scenario1Answer4BSelected.SetActive(false);
+                if(Scenario1Answer4CSelected)
                 Scenario1Answer4CSelected.SetActive(true);
                 Scenario1Answer4NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -261,20 +293,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer5ASelected)
                 Scenario1Answer5ASelected.SetActive(true);
+                if(Scenario1Answer5BSelected)
                 Scenario1Answer5BSelected.SetActive(false);
+                if(Scenario1Answer5CSelected)
                 Scenario1Answer5CSelected.SetActive(false);
                 Scenario1Answer5NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer5ASelected)
                 Scenario1Answer5ASelected.SetActive(false);
+                if(Scenario1Answer5BSelected)
                 Scenario1Answer5BSelected.SetActive(true);
+                if(Scenario1Answer5CSelected)
                 Scenario1Answer5CSelected.SetActive(false);
                 Scenario1Answer5NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer5ASelected)
                 Scenario1Answer5ASelected.SetActive(false);
+                if(Scenario1Answer5BSelected)
                 Scenario1Answer5BSelected.SetActive(false);
+                if(Scenario1Answer5CSelected)
                 Scenario1Answer5CSelected.SetActive(true);
                 Scenario1Answer5NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -295,20 +336,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer6ASelected)
                 Scenario1Answer6ASelected.SetActive(true);
+                if(Scenario1Answer6BSelected)
                 Scenario1Answer6BSelected.SetActive(false);
+                if(Scenario1Answer6CSelected)
                 Scenario1Answer6CSelected.SetActive(false);
                 Scenario1Answer6NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer6ASelected)
                 Scenario1Answer6ASelected.SetActive(false);
+                if(Scenario1Answer6BSelected)
                 Scenario1Answer6BSelected.SetActive(true);
+                if(Scenario1Answer6CSelected)
                 Scenario1Answer6CSelected.SetActive(false);
                 Scenario1Answer6NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer6ASelected)
                 Scenario1Answer6ASelected.SetActive(false);
+                if(Scenario1Answer6BSelected)
                 Scenario1Answer6BSelected.SetActive(false);
+                if(Scenario1Answer6CSelected)
                 Scenario1Answer6CSelected.SetActive(true);
                 Scenario1Answer6NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -329,20 +379,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer7ASelected)
                 Scenario1Answer7ASelected.SetActive(true);
+                if(Scenario1Answer7BSelected)
                 Scenario1Answer7BSelected.SetActive(false);
+                if(Scenario1Answer7CSelected)
                 Scenario1Answer7CSelected.SetActive(false);
                 Scenario1Answer7NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer7ASelected)
                 Scenario1Answer7ASelected.SetActive(false);
+                if(Scenario1Answer7BSelected)
                 Scenario1Answer7BSelected.SetActive(true);
+                if(Scenario1Answer7CSelected)
                 Scenario1Answer7CSelected.SetActive(false);
                 Scenario1Answer7NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer7ASelected)
                 Scenario1Answer7ASelected.SetActive(false);
+                if(Scenario1Answer7BSelected)
                 Scenario1Answer7BSelected.SetActive(false);
+                if(Scenario1Answer7CSelected)
                 Scenario1Answer7CSelected.SetActive(true);
                 Scenario1Answer7NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -364,20 +423,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer8ASelected)
                 Scenario1Answer8ASelected.SetActive(true);
+                if(Scenario1Answer8BSelected)
                 Scenario1Answer8BSelected.SetActive(false);
+                if(Scenario1Answer8CSelected)
                 Scenario1Answer8CSelected.SetActive(false);
                 Scenario1Answer8NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer8ASelected)
                 Scenario1Answer8ASelected.SetActive(false);
+                if(Scenario1Answer8BSelected)
                 Scenario1Answer8BSelected.SetActive(true);
+                if(Scenario1Answer8CSelected)
                 Scenario1Answer8CSelected.SetActive(false);
                 Scenario1Answer8NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer8ASelected)
                 Scenario1Answer8ASelected.SetActive(false);
+                if(Scenario1Answer8BSelected)
                 Scenario1Answer8BSelected.SetActive(false);
+                if(Scenario1Answer8CSelected)
                 Scenario1Answer8CSelected.SetActive(true);
                 Scenario1Answer8NextButton.GetComponent<Button>().interactable = true;
                 break;
@@ -399,20 +467,29 @@ public class GameplayUI : MonoBehaviour
         switch (answerNumber)
         {
             case 1:
+                if(Scenario1Answer9ASelected)
                 Scenario1Answer9ASelected.SetActive(true);
+                if(Scenario1Answer9BSelected)
                 Scenario1Answer9BSelected.SetActive(false);
+                if(Scenario1Answer9CSelected)
                 Scenario1Answer9CSelected.SetActive(false);
                 Scenario1Answer9NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 2:
+                if(Scenario1Answer9ASelected)
                 Scenario1Answer9ASelected.SetActive(false);
+                if(Scenario1Answer9BSelected)
                 Scenario1Answer9BSelected.SetActive(true);
+                if(Scenario1Answer9CSelected)
                 Scenario1Answer9CSelected.SetActive(false);
                 Scenario1Answer9NextButton.GetComponent<Button>().interactable = true;
                 break;
             case 3:
+                if(Scenario1Answer9ASelected)
                 Scenario1Answer9ASelected.SetActive(false);
+                if(Scenario1Answer9BSelected)
                 Scenario1Answer9BSelected.SetActive(false);
+                if(Scenario1Answer9CSelected)
                 Scenario1Answer9CSelected.SetActive(true);
                 Scenario1Answer9NextButton.GetComponent<Button>().interactable = true;
                 break;
