@@ -20731,8 +20731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.6675, y: 4.445}
-  m_SizeDelta: {x: 1437.2517, y: 338.4813}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1437.2517, y: 295.7323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985788335
 MonoBehaviour:
@@ -20767,12 +20767,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dirk, a new RN, has joined the team. It is the fourth week of work, and
-    he is feeling unhappy. The cultural differences are one challenge he knew he
+  m_Text: Terry, a new RN, has joined the team. It is the fourth week of work, and
+    she is feeling unhappy. The cultural differences are one challenge she knew she
     would need to overcome. Some procedures and protocols are done differently from
-    where he is coming from, but he can still adapt during the orientation period.
-    This morning was distressful for him as his preceptor told him he was not catching
-    on quickly. Dirk has asked for a meeting with you as the charge nurse for the
+    where she is coming from, but she can still adapt during the orientation period.
+    This morning was distressful for her as her preceptor told her she was not catching
+    on quickly. Terry has asked for a meeting with you as the charge nurse for the
     shift.
 --- !u!222 &1985788336
 CanvasRenderer:
